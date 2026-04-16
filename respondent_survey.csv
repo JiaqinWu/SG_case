@@ -1,0 +1,501 @@
+respondent_id,hub_id,hub_name,age_group,household_type,ethnicity,user_archetype,visit_frequency_monthly,activity_types_count,recruited_by_volunteer,resident_in_catchment,awareness_of_programmes,perceived_accessibility,perceived_safety,q1_belong_here,q2_people_care,q3_place_attachment,q4_return_intent,q5_meet_diff_groups,q6_cross_group_activities,q7_diverse_interactions,q8_mutual_aid_across_groups,q9_understand_governance,q10_can_raise_concerns,q11_trust_hub_institutions,q12_voice_matters,bonding_score,bridging_score,linking_score,overall_sc_score
+R001,H1,Our Tampines Hub,35-44,Senior household,Malay,Service user,3,4,No,Yes,3.82,4.56,4.84,4,4,4,5,4,4,5,4,3,2,3,3,4.25,4.25,2.75,3.75
+R002,H1,Our Tampines Hub,45-54,Single,Chinese,Senior user,7,3,No,Yes,4.86,3.33,5.0,5,4,4,4,3,3,4,4,5,4,5,4,4.25,3.5,4.5,4.08
+R003,H1,Our Tampines Hub,18-24,Senior household,Malay,Routine user,4,4,No,Yes,2.99,4.95,5.0,5,5,4,5,5,5,5,5,5,3,3,3,4.75,5.0,3.5,4.42
+R004,H1,Our Tampines Hub,18-24,Single,Malay,Event user,7,2,No,Yes,4.6,4.99,5.0,5,5,5,5,5,5,4,5,4,4,4,4,5.0,4.75,4.0,4.58
+R005,H1,Our Tampines Hub,25-34,Family with children,Malay,Event user,7,3,No,No,4.58,4.0,4.76,5,4,4,5,4,5,5,5,4,4,4,5,4.5,4.75,4.25,4.5
+R006,H1,Our Tampines Hub,25-34,Single,Chinese,Service user,3,3,No,Yes,4.7,4.07,4.89,5,5,5,5,4,4,3,5,5,4,4,5,5.0,4.0,4.5,4.5
+R007,H1,Our Tampines Hub,18-24,Single,Indian,Service user,2,3,No,No,5.0,4.51,4.33,5,4,5,5,4,5,4,3,4,4,4,4,4.75,4.0,4.0,4.25
+R008,H1,Our Tampines Hub,65+,Family with children,Malay,Service user,6,3,No,Yes,4.1,4.7,4.85,5,5,5,5,5,5,5,5,5,4,4,5,5.0,5.0,4.5,4.83
+R009,H1,Our Tampines Hub,45-54,Couple,Chinese,Family user,13,3,No,Yes,2.77,4.43,4.88,5,5,5,5,5,5,5,5,4,5,5,4,5.0,5.0,4.5,4.83
+R010,H1,Our Tampines Hub,25-34,Family with children,Chinese,Routine user,7,3,No,Yes,4.5,5.0,4.24,5,5,5,5,4,4,3,4,4,4,3,3,5.0,3.75,3.5,4.08
+R011,H1,Our Tampines Hub,45-54,Family with children,Indian,Service user,4,3,Yes,Yes,5.0,3.32,5.0,4,4,4,4,4,5,4,4,5,5,5,5,4.0,4.25,5.0,4.42
+R012,H1,Our Tampines Hub,25-34,Single,Malay,Family user,11,4,No,Yes,4.75,3.96,5.0,5,5,5,5,5,5,5,5,5,4,5,5,5.0,5.0,4.75,4.92
+R013,H1,Our Tampines Hub,35-44,Senior household,Chinese,Routine user,5,3,No,Yes,3.82,4.34,4.15,4,5,5,4,4,4,4,4,4,3,4,5,4.5,4.0,4.0,4.17
+R014,H1,Our Tampines Hub,65+,Couple,Chinese,Family user,5,4,No,Yes,4.28,3.64,5.0,5,5,5,5,5,5,5,5,4,4,4,5,5.0,5.0,4.25,4.75
+R015,H1,Our Tampines Hub,65+,Senior household,Malay,Service user,13,1,No,Yes,2.83,5.0,5.0,5,5,5,5,3,4,4,4,5,4,4,5,5.0,3.75,4.5,4.42
+R016,H1,Our Tampines Hub,18-24,Family with children,Chinese,Family user,8,4,No,Yes,3.85,3.94,3.96,5,5,5,5,5,5,5,5,4,3,4,4,5.0,5.0,3.75,4.58
+R017,H1,Our Tampines Hub,25-34,Family with children,Chinese,Routine user,4,3,No,Yes,4.15,4.85,4.48,5,5,5,5,5,4,4,4,3,3,4,4,5.0,4.25,3.5,4.25
+R018,H1,Our Tampines Hub,25-34,Couple,Chinese,Event user,6,3,Yes,Yes,3.42,4.24,5.0,4,4,3,4,4,4,4,5,4,4,3,4,3.75,4.25,3.75,3.92
+R019,H1,Our Tampines Hub,35-44,Family with children,Malay,Event user,6,5,No,Yes,3.68,3.84,4.75,5,5,5,5,4,5,5,4,4,4,3,4,5.0,4.5,3.75,4.42
+R020,H1,Our Tampines Hub,55-64,Couple,Chinese,Event user,6,1,No,Yes,4.08,3.9,4.75,5,5,4,5,5,5,5,5,4,5,4,5,4.75,5.0,4.5,4.75
+R021,H1,Our Tampines Hub,25-34,Single,Indian,Service user,9,4,No,Yes,4.01,4.76,5.0,5,5,5,5,5,5,5,4,4,5,4,4,5.0,4.75,4.25,4.67
+R022,H1,Our Tampines Hub,55-64,Single,Chinese,Family user,7,4,No,Yes,4.97,4.86,5.0,5,5,5,5,3,3,4,5,4,4,5,5,5.0,3.75,4.5,4.42
+R023,H1,Our Tampines Hub,65+,Multi-generational,Chinese,Service user,10,5,Yes,Yes,2.85,5.0,5.0,5,5,5,5,5,5,5,4,4,4,3,4,5.0,4.75,3.75,4.5
+R024,H1,Our Tampines Hub,65+,Couple,Chinese,Service user,3,5,No,Yes,5.0,4.22,5.0,5,5,5,5,4,5,5,5,3,4,5,3,5.0,4.75,3.75,4.5
+R025,H1,Our Tampines Hub,25-34,Couple,Indian,Senior user,5,1,No,Yes,4.78,3.39,4.8,5,5,5,5,3,4,3,4,5,4,5,4,5.0,3.5,4.5,4.33
+R026,H1,Our Tampines Hub,35-44,Senior household,Indian,Event user,7,2,No,Yes,3.76,4.46,5.0,5,5,5,5,4,5,4,4,4,4,4,4,5.0,4.25,4.0,4.42
+R027,H1,Our Tampines Hub,18-24,Senior household,Chinese,Service user,6,1,Yes,Yes,5.0,5.0,4.46,5,4,5,5,4,4,3,4,5,4,5,4,4.75,3.75,4.5,4.33
+R028,H1,Our Tampines Hub,35-44,Family with children,Other,Family user,3,3,No,Yes,2.85,4.87,4.92,5,5,4,5,5,5,4,5,3,4,3,3,4.75,4.75,3.25,4.25
+R029,H1,Our Tampines Hub,45-54,Senior household,Malay,Family user,9,3,Yes,Yes,4.85,4.28,5.0,5,5,5,5,5,5,5,5,5,4,4,5,5.0,5.0,4.5,4.83
+R030,H1,Our Tampines Hub,45-54,Senior household,Chinese,Routine user,3,4,No,Yes,5.0,3.7,4.81,3,3,3,4,5,4,4,4,3,4,4,4,3.25,4.25,3.75,3.75
+R031,H1,Our Tampines Hub,65+,Multi-generational,Chinese,Event user,11,2,No,Yes,4.64,3.75,4.82,5,5,5,5,4,4,5,5,4,4,4,4,5.0,4.5,4.0,4.5
+R032,H1,Our Tampines Hub,25-34,Senior household,Other,Family user,7,3,No,No,4.76,3.44,2.73,5,4,4,4,5,5,5,5,5,5,5,5,4.25,5.0,5.0,4.75
+R033,H1,Our Tampines Hub,45-54,Family with children,Malay,Routine user,5,2,No,No,4.53,4.46,5.0,5,5,5,4,5,5,5,4,4,3,4,3,4.75,4.75,3.5,4.33
+R034,H1,Our Tampines Hub,65+,Single,Other,Family user,4,3,No,Yes,3.75,4.45,5.0,4,4,5,5,4,4,4,4,4,5,5,5,4.5,4.0,4.75,4.42
+R035,H1,Our Tampines Hub,35-44,Family with children,Chinese,Routine user,6,3,No,Yes,4.6,4.16,5.0,5,5,5,5,5,5,4,5,5,4,4,4,5.0,4.75,4.25,4.67
+R036,H1,Our Tampines Hub,35-44,Single,Chinese,Routine user,4,1,No,Yes,2.93,4.71,5.0,5,4,5,5,3,4,4,3,4,3,3,4,4.75,3.5,3.5,3.92
+R037,H1,Our Tampines Hub,45-54,Family with children,Indian,Routine user,5,5,No,Yes,4.76,4.46,5.0,5,5,5,5,5,5,5,5,4,4,4,4,5.0,5.0,4.0,4.67
+R038,H1,Our Tampines Hub,45-54,Family with children,Chinese,Family user,7,1,No,Yes,4.52,4.63,4.83,5,5,5,5,4,4,4,4,4,3,4,4,5.0,4.0,3.75,4.25
+R039,H1,Our Tampines Hub,55-64,Single,Malay,Senior user,7,4,No,Yes,5.0,2.96,4.91,4,5,5,5,4,3,4,4,4,5,5,5,4.75,3.75,4.75,4.42
+R040,H1,Our Tampines Hub,25-34,Single,Chinese,Family user,9,1,No,Yes,4.79,4.13,5.0,5,3,5,4,5,4,5,4,4,5,4,5,4.25,4.5,4.5,4.42
+R041,H1,Our Tampines Hub,45-54,Multi-generational,Other,Family user,8,2,No,Yes,3.58,4.39,5.0,5,5,4,5,5,5,5,5,5,5,5,4,4.75,5.0,4.75,4.83
+R042,H1,Our Tampines Hub,18-24,Couple,Chinese,Event user,6,1,No,Yes,3.65,5.0,5.0,4,4,5,5,4,3,3,3,5,5,5,5,4.5,3.25,5.0,4.25
+R043,H1,Our Tampines Hub,18-24,Senior household,Chinese,Routine user,7,3,No,Yes,3.41,4.02,5.0,4,5,4,5,5,5,5,5,3,3,3,4,4.5,5.0,3.25,4.25
+R044,H1,Our Tampines Hub,55-64,Senior household,Chinese,Routine user,10,3,No,Yes,5.0,3.32,5.0,5,5,4,5,5,4,5,4,5,4,4,4,4.75,4.5,4.25,4.5
+R045,H1,Our Tampines Hub,45-54,Family with children,Other,Routine user,5,1,Yes,Yes,3.32,3.68,4.76,5,5,5,5,4,5,3,3,4,5,4,5,5.0,3.75,4.5,4.42
+R046,H1,Our Tampines Hub,18-24,Family with children,Other,Routine user,6,2,No,Yes,3.33,3.96,5.0,5,5,5,5,5,5,5,5,3,4,4,3,5.0,5.0,3.5,4.5
+R047,H1,Our Tampines Hub,45-54,Family with children,Indian,Event user,12,1,No,No,3.37,5.0,5.0,5,5,5,5,3,4,4,4,5,5,4,4,5.0,3.75,4.5,4.42
+R048,H1,Our Tampines Hub,35-44,Family with children,Chinese,Service user,5,4,No,No,3.75,3.89,4.91,5,4,4,5,5,5,4,5,4,4,3,3,4.5,4.75,3.5,4.25
+R049,H1,Our Tampines Hub,35-44,Multi-generational,Malay,Family user,3,1,No,Yes,4.29,3.4,4.47,4,4,5,4,2,3,2,2,5,5,5,4,4.25,2.25,4.75,3.75
+R050,H1,Our Tampines Hub,35-44,Couple,Indian,Routine user,9,1,No,Yes,4.02,4.24,5.0,5,4,5,5,4,4,4,4,5,5,5,5,4.75,4.0,5.0,4.58
+R051,H1,Our Tampines Hub,35-44,Couple,Chinese,Service user,8,3,No,Yes,4.63,4.93,4.91,5,4,5,5,4,4,4,4,3,4,3,4,4.75,4.0,3.5,4.08
+R052,H1,Our Tampines Hub,55-64,Multi-generational,Malay,Service user,6,1,No,Yes,4.22,3.14,5.0,4,5,5,5,5,5,5,5,5,5,5,4,4.75,5.0,4.75,4.83
+R053,H1,Our Tampines Hub,65+,Single,Chinese,Family user,8,1,No,No,3.57,4.64,5.0,5,5,5,5,4,4,3,3,3,5,4,5,5.0,3.5,4.25,4.25
+R054,H1,Our Tampines Hub,45-54,Single,Chinese,Service user,8,1,No,Yes,4.96,4.66,3.23,5,5,5,5,4,4,5,4,4,4,4,4,5.0,4.25,4.0,4.42
+R055,H1,Our Tampines Hub,35-44,Family with children,Chinese,Routine user,4,4,No,Yes,4.46,4.08,4.84,4,3,4,5,5,4,4,5,3,4,4,4,4.0,4.5,3.75,4.08
+R056,H1,Our Tampines Hub,65+,Single,Chinese,Event user,7,4,No,Yes,2.26,4.8,5.0,4,5,5,4,5,4,5,5,4,5,4,4,4.5,4.75,4.25,4.5
+R057,H1,Our Tampines Hub,65+,Family with children,Chinese,Routine user,6,2,No,No,3.84,5.0,5.0,5,4,4,4,4,4,4,4,5,4,4,4,4.25,4.0,4.25,4.17
+R058,H1,Our Tampines Hub,65+,Senior household,Indian,Routine user,5,3,Yes,Yes,3.42,4.18,5.0,4,5,5,5,5,5,5,5,3,4,4,4,4.75,5.0,3.75,4.5
+R059,H1,Our Tampines Hub,25-34,Senior household,Indian,Routine user,7,2,No,No,4.35,4.35,5.0,5,5,4,5,4,4,5,5,4,4,4,4,4.75,4.5,4.0,4.42
+R060,H1,Our Tampines Hub,45-54,Multi-generational,Chinese,Event user,8,4,No,Yes,3.89,3.54,5.0,5,5,5,5,5,5,5,5,5,5,5,5,5.0,5.0,5.0,5.0
+R061,H1,Our Tampines Hub,25-34,Multi-generational,Chinese,Service user,5,2,No,Yes,4.48,4.52,5.0,5,5,5,5,5,4,3,5,4,4,4,4,5.0,4.25,4.0,4.42
+R062,H1,Our Tampines Hub,25-34,Senior household,Chinese,Senior user,6,4,No,Yes,4.47,3.73,4.53,4,5,5,5,4,4,4,4,4,4,4,4,4.75,4.0,4.0,4.25
+R063,H1,Our Tampines Hub,65+,Senior household,Chinese,Routine user,8,3,No,Yes,3.68,2.9,5.0,5,5,5,5,4,4,4,4,5,5,5,5,5.0,4.0,5.0,4.67
+R064,H1,Our Tampines Hub,55-64,Family with children,Malay,Routine user,4,1,No,Yes,4.02,2.73,5.0,4,4,5,4,4,5,4,3,3,4,3,4,4.25,4.0,3.5,3.92
+R065,H1,Our Tampines Hub,35-44,Family with children,Indian,Event user,7,4,No,Yes,4.94,3.8,5.0,5,4,5,5,5,4,4,4,5,5,5,4,4.75,4.25,4.75,4.58
+R066,H1,Our Tampines Hub,18-24,Family with children,Indian,Service user,6,1,No,Yes,4.1,2.86,4.78,5,4,5,5,4,5,4,4,4,3,4,3,4.75,4.25,3.5,4.17
+R067,H1,Our Tampines Hub,55-64,Senior household,Indian,Event user,8,2,No,Yes,3.43,3.88,5.0,5,5,5,4,3,4,5,3,5,4,5,5,4.75,3.75,4.75,4.42
+R068,H1,Our Tampines Hub,65+,Family with children,Chinese,Routine user,3,4,No,Yes,4.13,4.34,5.0,5,5,5,5,4,4,4,4,3,3,3,3,5.0,4.0,3.0,4.0
+R069,H1,Our Tampines Hub,65+,Family with children,Chinese,Service user,9,3,No,Yes,4.18,3.78,4.1,5,5,5,5,5,4,5,5,5,5,5,5,5.0,4.75,5.0,4.92
+R070,H1,Our Tampines Hub,25-34,Multi-generational,Chinese,Service user,11,4,No,Yes,4.09,4.88,5.0,5,5,5,5,5,5,5,5,4,5,5,5,5.0,5.0,4.75,4.92
+R071,H1,Our Tampines Hub,25-34,Multi-generational,Malay,Service user,6,2,No,No,3.57,3.97,3.84,5,5,4,4,4,4,5,4,4,3,4,3,4.5,4.25,3.5,4.08
+R072,H1,Our Tampines Hub,65+,Family with children,Chinese,Service user,7,3,No,Yes,4.58,4.54,5.0,5,5,5,5,4,5,4,5,4,4,4,4,5.0,4.5,4.0,4.5
+R073,H1,Our Tampines Hub,55-64,Single,Chinese,Family user,6,4,Yes,Yes,4.02,4.71,5.0,5,5,5,5,5,5,5,5,3,4,4,4,5.0,5.0,3.75,4.58
+R074,H1,Our Tampines Hub,35-44,Family with children,Chinese,Routine user,5,4,Yes,Yes,3.9,5.0,4.98,5,5,5,5,5,5,5,5,5,5,5,4,5.0,5.0,4.75,4.92
+R075,H1,Our Tampines Hub,18-24,Single,Chinese,Routine user,4,1,No,Yes,2.15,4.05,5.0,5,5,4,5,4,4,4,4,4,4,3,3,4.75,4.0,3.5,4.08
+R076,H1,Our Tampines Hub,18-24,Couple,Malay,Service user,3,2,No,Yes,4.34,4.35,5.0,5,5,5,5,3,3,3,3,3,3,4,4,5.0,3.0,3.5,3.83
+R077,H1,Our Tampines Hub,45-54,Single,Indian,Service user,9,1,No,No,3.53,5.0,4.04,5,5,5,5,4,5,5,5,4,5,4,5,5.0,4.75,4.5,4.75
+R078,H1,Our Tampines Hub,35-44,Family with children,Chinese,Service user,13,3,No,No,5.0,4.43,4.95,5,5,5,5,4,4,5,4,5,5,5,5,5.0,4.25,5.0,4.75
+R079,H1,Our Tampines Hub,65+,Single,Malay,Event user,10,3,No,Yes,2.98,4.2,5.0,5,5,5,5,4,4,5,4,5,4,5,5,5.0,4.25,4.75,4.67
+R080,H1,Our Tampines Hub,25-34,Couple,Indian,Routine user,4,2,Yes,Yes,5.0,3.43,5.0,5,5,5,5,3,3,3,3,5,4,5,5,5.0,3.0,4.75,4.25
+R081,H1,Our Tampines Hub,35-44,Couple,Chinese,Family user,11,3,No,No,4.53,5.0,5.0,4,5,5,5,5,5,5,5,4,5,4,4,4.75,5.0,4.25,4.67
+R082,H1,Our Tampines Hub,55-64,Senior household,Chinese,Family user,11,1,Yes,Yes,3.96,4.13,4.1,5,5,5,5,5,5,5,5,4,5,5,5,5.0,5.0,4.75,4.92
+R083,H1,Our Tampines Hub,25-34,Senior household,Malay,Family user,6,3,No,Yes,3.4,3.41,5.0,4,4,4,5,5,5,5,5,4,3,4,4,4.25,5.0,3.75,4.33
+R084,H1,Our Tampines Hub,45-54,Couple,Chinese,Family user,6,3,No,Yes,4.02,3.53,5.0,5,5,5,5,3,3,4,3,3,4,3,4,5.0,3.25,3.5,3.92
+R085,H1,Our Tampines Hub,45-54,Family with children,Malay,Routine user,4,3,No,Yes,4.72,3.11,5.0,5,5,5,5,5,4,5,5,4,5,4,4,5.0,4.75,4.25,4.67
+R086,H1,Our Tampines Hub,55-64,Senior household,Chinese,Routine user,4,3,No,Yes,3.8,4.37,5.0,4,4,5,4,4,5,4,4,4,4,4,4,4.25,4.25,4.0,4.17
+R087,H1,Our Tampines Hub,25-34,Family with children,Malay,Family user,7,2,Yes,Yes,4.02,5.0,4.23,5,5,5,5,4,4,4,3,5,5,5,5,5.0,3.75,5.0,4.58
+R088,H1,Our Tampines Hub,45-54,Couple,Chinese,Routine user,7,2,No,Yes,5.0,5.0,4.22,5,4,4,5,5,4,5,4,5,5,5,4,4.5,4.5,4.75,4.58
+R089,H1,Our Tampines Hub,45-54,Multi-generational,Indian,Family user,7,1,No,No,4.98,4.82,4.29,5,5,5,5,3,4,4,5,3,3,4,4,5.0,4.0,3.5,4.17
+R090,H1,Our Tampines Hub,45-54,Single,Chinese,Event user,6,2,No,Yes,3.82,3.28,5.0,5,5,5,5,2,3,3,3,4,4,3,4,5.0,2.75,3.75,3.83
+R091,H1,Our Tampines Hub,55-64,Family with children,Chinese,Family user,7,1,Yes,Yes,4.6,4.21,5.0,5,5,4,4,4,4,4,4,5,4,5,5,4.5,4.0,4.75,4.42
+R092,H1,Our Tampines Hub,18-24,Couple,Malay,Event user,4,1,No,Yes,4.76,4.73,5.0,5,5,5,5,4,4,4,4,4,4,4,4,5.0,4.0,4.0,4.33
+R093,H1,Our Tampines Hub,45-54,Single,Chinese,Family user,5,2,Yes,Yes,3.47,5.0,5.0,5,5,5,5,3,4,4,4,5,4,5,4,5.0,3.75,4.5,4.42
+R094,H1,Our Tampines Hub,55-64,Multi-generational,Malay,Routine user,5,2,No,Yes,4.48,3.09,5.0,5,5,5,5,5,4,5,5,3,4,4,4,5.0,4.75,3.75,4.5
+R095,H1,Our Tampines Hub,55-64,Family with children,Chinese,Service user,4,4,No,Yes,5.0,5.0,5.0,5,5,5,5,5,5,5,5,4,5,5,5,5.0,5.0,4.75,4.92
+R096,H1,Our Tampines Hub,45-54,Family with children,Chinese,Event user,10,1,No,Yes,4.65,3.57,5.0,5,5,5,5,4,4,3,4,5,4,5,5,5.0,3.75,4.75,4.5
+R097,H1,Our Tampines Hub,45-54,Family with children,Chinese,Routine user,3,3,Yes,Yes,3.3,4.62,5.0,5,5,5,5,5,5,5,4,4,3,3,3,5.0,4.75,3.25,4.33
+R098,H1,Our Tampines Hub,25-34,Single,Other,Family user,7,1,No,Yes,3.84,4.31,5.0,5,4,5,4,4,4,4,5,4,3,4,3,4.5,4.25,3.5,4.08
+R099,H1,Our Tampines Hub,18-24,Family with children,Chinese,Family user,7,4,No,Yes,3.98,4.77,5.0,5,5,5,4,4,4,5,5,5,5,5,5,4.75,4.5,5.0,4.75
+R100,H1,Our Tampines Hub,35-44,Family with children,Chinese,Service user,6,2,No,Yes,4.5,4.05,5.0,5,5,5,5,4,4,4,4,3,3,4,4,5.0,4.0,3.5,4.17
+R101,H2,Heartbeat@Bedok,25-34,Single,Indian,Family user,6,3,Yes,No,2.8,3.4,3.11,3,4,2,4,2,3,2,2,2,1,2,2,3.25,2.25,1.75,2.42
+R102,H2,Heartbeat@Bedok,35-44,Family with children,Chinese,Routine user,5,2,No,No,3.09,4.09,1.84,4,5,4,4,3,3,3,4,2,3,2,3,4.25,3.25,2.5,3.33
+R103,H2,Heartbeat@Bedok,55-64,Couple,Chinese,Routine user,13,5,No,Yes,4.25,4.89,2.48,5,4,5,5,4,3,3,2,3,3,4,4,4.75,3.0,3.5,3.75
+R104,H2,Heartbeat@Bedok,55-64,Family with children,Indian,Family user,3,2,No,Yes,4.3,3.7,3.7,3,3,4,3,3,2,2,3,2,2,2,3,3.25,2.5,2.25,2.67
+R105,H2,Heartbeat@Bedok,25-34,Single,Chinese,Senior user,11,4,Yes,No,2.65,5.0,3.96,4,5,5,4,4,4,3,4,3,4,4,3,4.5,3.75,3.5,3.92
+R106,H2,Heartbeat@Bedok,25-34,Family with children,Chinese,Family user,8,3,No,Yes,3.11,2.95,3.24,5,4,5,5,3,3,2,3,2,2,3,2,4.75,2.75,2.25,3.25
+R107,H2,Heartbeat@Bedok,18-24,Family with children,Chinese,Service user,9,2,No,No,2.69,2.61,3.71,4,4,4,4,3,4,3,2,3,3,3,3,4.0,3.0,3.0,3.33
+R108,H2,Heartbeat@Bedok,35-44,Multi-generational,Chinese,Service user,9,4,No,Yes,5.0,2.0,3.37,4,3,4,3,4,3,3,3,4,4,4,3,3.5,3.25,3.75,3.5
+R109,H2,Heartbeat@Bedok,25-34,Couple,Chinese,Event user,6,2,No,No,4.39,5.0,2.56,3,4,3,4,4,3,3,3,2,3,3,3,3.5,3.25,2.75,3.17
+R110,H2,Heartbeat@Bedok,25-34,Multi-generational,Chinese,Senior user,7,2,Yes,Yes,3.46,3.24,3.49,3,3,3,4,2,2,2,2,3,3,2,2,3.25,2.0,2.5,2.58
+R111,H2,Heartbeat@Bedok,45-54,Single,Chinese,Event user,8,2,No,Yes,3.96,4.54,2.64,5,4,4,4,4,4,4,4,3,2,2,4,4.25,4.0,2.75,3.67
+R112,H2,Heartbeat@Bedok,35-44,Couple,Chinese,Family user,7,4,No,Yes,4.08,3.36,3.31,4,5,5,4,3,4,4,3,4,3,4,3,4.5,3.5,3.5,3.83
+R113,H2,Heartbeat@Bedok,55-64,Couple,Chinese,Routine user,8,3,No,No,2.69,5.0,2.01,4,4,4,5,3,5,4,4,3,2,3,2,4.25,4.0,2.5,3.58
+R114,H2,Heartbeat@Bedok,45-54,Senior household,Malay,Service user,4,2,No,Yes,4.52,5.0,3.72,3,3,4,3,2,2,2,2,3,3,4,5,3.25,2.0,3.75,3.0
+R115,H2,Heartbeat@Bedok,18-24,Family with children,Chinese,Service user,5,1,Yes,Yes,4.41,3.93,2.51,5,5,4,4,2,3,3,3,3,3,2,3,4.5,2.75,2.75,3.33
+R116,H2,Heartbeat@Bedok,55-64,Family with children,Chinese,Routine user,6,5,No,Yes,4.45,5.0,3.04,4,4,4,4,2,3,3,2,4,3,4,3,4.0,2.5,3.5,3.33
+R117,H2,Heartbeat@Bedok,35-44,Couple,Malay,Service user,4,1,No,Yes,4.53,3.04,3.9,4,3,3,4,2,1,1,2,1,2,2,2,3.5,1.5,1.75,2.25
+R118,H2,Heartbeat@Bedok,65+,Family with children,Chinese,Service user,8,3,No,Yes,2.2,3.15,2.71,5,4,4,4,4,3,3,4,3,3,2,2,4.25,3.5,2.5,3.42
+R119,H2,Heartbeat@Bedok,25-34,Single,Chinese,Service user,6,3,No,Yes,2.98,4.49,3.3,5,4,4,4,4,3,3,4,3,2,2,3,4.25,3.5,2.5,3.42
+R120,H2,Heartbeat@Bedok,18-24,Family with children,Indian,Event user,6,2,Yes,Yes,3.91,4.63,3.23,5,5,5,4,3,4,4,3,3,4,3,3,4.75,3.5,3.25,3.83
+R121,H2,Heartbeat@Bedok,18-24,Family with children,Chinese,Routine user,4,3,No,Yes,3.39,4.0,2.39,4,4,4,4,4,4,3,4,2,2,2,2,4.0,3.75,2.0,3.25
+R122,H2,Heartbeat@Bedok,25-34,Family with children,Chinese,Routine user,3,2,No,Yes,3.64,4.22,2.26,5,5,4,5,2,2,3,2,2,3,2,2,4.75,2.25,2.25,3.08
+R123,H2,Heartbeat@Bedok,65+,Couple,Malay,Event user,9,2,No,Yes,3.68,3.87,3.18,4,3,3,3,3,2,2,3,4,3,3,3,3.25,2.5,3.25,3.0
+R124,H2,Heartbeat@Bedok,55-64,Single,Chinese,Family user,9,2,No,Yes,2.07,3.95,2.9,4,4,4,4,4,5,4,3,3,3,3,3,4.0,4.0,3.0,3.67
+R125,H2,Heartbeat@Bedok,45-54,Multi-generational,Chinese,Family user,6,2,No,Yes,5.0,3.01,2.95,4,3,4,4,4,2,3,3,2,3,3,3,3.75,3.0,2.75,3.17
+R126,H2,Heartbeat@Bedok,25-34,Couple,Chinese,Family user,8,5,No,Yes,4.35,3.37,3.44,5,4,5,5,4,3,3,3,4,4,3,3,4.75,3.25,3.5,3.83
+R127,H2,Heartbeat@Bedok,25-34,Couple,Malay,Senior user,9,3,No,Yes,4.34,3.45,2.64,5,5,4,5,4,3,3,3,4,3,3,4,4.75,3.25,3.5,3.83
+R128,H2,Heartbeat@Bedok,45-54,Multi-generational,Indian,Senior user,9,1,No,Yes,3.27,4.6,3.14,4,5,3,5,3,3,2,3,4,4,3,4,4.25,2.75,3.75,3.58
+R129,H2,Heartbeat@Bedok,65+,Multi-generational,Chinese,Event user,7,5,No,Yes,2.73,3.65,2.92,3,3,3,4,4,4,3,4,3,3,2,4,3.25,3.75,3.0,3.33
+R130,H2,Heartbeat@Bedok,35-44,Multi-generational,Chinese,Family user,8,5,No,Yes,3.18,3.75,2.64,4,4,3,4,2,3,4,3,3,3,4,3,3.75,3.0,3.25,3.33
+R131,H2,Heartbeat@Bedok,35-44,Family with children,Malay,Service user,7,5,No,Yes,3.73,3.88,2.22,5,5,4,5,3,4,3,3,2,3,3,3,4.75,3.25,2.75,3.58
+R132,H2,Heartbeat@Bedok,25-34,Couple,Chinese,Family user,4,4,No,Yes,2.91,3.92,2.76,4,4,4,3,5,3,4,4,2,2,3,3,3.75,4.0,2.5,3.42
+R133,H2,Heartbeat@Bedok,55-64,Family with children,Chinese,Service user,4,2,Yes,Yes,3.24,3.78,2.62,3,3,3,4,2,3,3,3,3,3,4,3,3.25,2.75,3.25,3.08
+R134,H2,Heartbeat@Bedok,35-44,Single,Chinese,Family user,4,2,No,Yes,2.76,4.85,2.56,4,4,3,4,4,4,4,3,2,2,2,3,3.75,3.75,2.25,3.25
+R135,H2,Heartbeat@Bedok,25-34,Senior household,Chinese,Senior user,8,4,No,Yes,2.96,4.7,3.57,5,4,4,4,3,3,2,3,3,3,3,3,4.25,2.75,3.0,3.33
+R136,H2,Heartbeat@Bedok,35-44,Family with children,Indian,Event user,9,3,No,Yes,4.61,2.88,3.31,4,4,3,4,3,3,3,3,4,4,3,3,3.75,3.0,3.5,3.42
+R137,H2,Heartbeat@Bedok,25-34,Couple,Chinese,Routine user,12,2,No,No,4.36,3.48,1.75,5,5,5,5,4,4,4,4,4,4,3,4,5.0,4.0,3.75,4.25
+R138,H2,Heartbeat@Bedok,25-34,Single,Chinese,Service user,9,3,No,Yes,5.0,4.74,2.1,4,4,4,4,5,5,4,5,2,3,2,3,4.0,4.75,2.5,3.75
+R139,H2,Heartbeat@Bedok,55-64,Couple,Chinese,Event user,9,3,No,Yes,4.03,3.7,2.92,5,4,4,3,3,3,3,3,5,4,4,4,4.0,3.0,4.25,3.75
+R140,H2,Heartbeat@Bedok,18-24,Single,Chinese,Family user,3,4,No,Yes,3.5,3.48,4.08,5,4,5,5,3,3,2,3,2,3,3,2,4.75,2.75,2.5,3.33
+R141,H2,Heartbeat@Bedok,25-34,Couple,Other,Routine user,10,1,Yes,Yes,2.96,3.99,3.23,5,4,5,4,3,3,2,3,3,3,4,4,4.5,2.75,3.5,3.58
+R142,H2,Heartbeat@Bedok,45-54,Couple,Chinese,Family user,5,3,No,Yes,3.24,3.65,3.35,4,4,4,4,5,4,4,5,2,2,2,1,4.0,4.5,1.75,3.42
+R143,H2,Heartbeat@Bedok,55-64,Senior household,Chinese,Family user,5,5,No,Yes,3.5,4.03,2.7,5,4,5,4,4,3,3,3,3,3,3,3,4.5,3.25,3.0,3.58
+R144,H2,Heartbeat@Bedok,45-54,Senior household,Chinese,Service user,6,3,No,No,3.67,3.83,2.95,3,3,3,3,2,3,3,3,2,4,3,3,3.0,2.75,3.0,2.92
+R145,H2,Heartbeat@Bedok,55-64,Family with children,Chinese,Senior user,7,2,Yes,Yes,3.07,3.52,3.23,4,4,4,4,3,2,2,4,3,4,2,4,4.0,2.75,3.25,3.33
+R146,H2,Heartbeat@Bedok,35-44,Senior household,Indian,Event user,10,2,No,Yes,3.64,3.43,3.25,3,3,3,2,3,3,4,3,3,2,2,3,2.75,3.25,2.5,2.83
+R147,H2,Heartbeat@Bedok,25-34,Senior household,Indian,Event user,10,2,No,Yes,3.48,4.92,3.15,4,4,4,5,3,4,4,4,3,3,4,3,4.25,3.75,3.25,3.75
+R148,H2,Heartbeat@Bedok,35-44,Single,Chinese,Event user,10,3,No,Yes,3.44,3.5,1.95,3,3,4,4,4,2,3,3,3,3,3,3,3.5,3.0,3.0,3.17
+R149,H2,Heartbeat@Bedok,45-54,Multi-generational,Chinese,Family user,5,5,No,Yes,4.52,2.79,2.16,4,3,4,4,2,2,3,3,2,2,3,2,3.75,2.5,2.25,2.83
+R150,H2,Heartbeat@Bedok,55-64,Senior household,Indian,Event user,5,2,No,Yes,2.94,4.59,2.49,4,4,4,4,4,4,3,4,2,2,3,3,4.0,3.75,2.5,3.42
+R151,H2,Heartbeat@Bedok,45-54,Family with children,Chinese,Routine user,6,2,No,No,3.07,4.09,3.36,5,4,5,5,4,2,3,3,3,3,3,2,4.75,3.0,2.75,3.5
+R152,H2,Heartbeat@Bedok,25-34,Family with children,Malay,Routine user,6,3,Yes,Yes,3.02,4.0,2.48,4,4,4,4,3,3,3,2,2,2,3,3,4.0,2.75,2.5,3.08
+R153,H2,Heartbeat@Bedok,55-64,Senior household,Other,Routine user,9,2,Yes,Yes,3.02,3.82,2.16,3,2,3,2,4,3,4,4,3,3,4,3,2.5,3.75,3.25,3.17
+R154,H2,Heartbeat@Bedok,18-24,Family with children,Indian,Senior user,6,2,Yes,Yes,3.8,2.76,2.75,4,4,4,5,3,3,4,3,2,2,2,3,4.25,3.25,2.25,3.25
+R155,H2,Heartbeat@Bedok,35-44,Family with children,Chinese,Routine user,8,1,No,Yes,3.64,4.13,3.13,5,5,5,5,3,4,3,4,3,4,3,3,5.0,3.5,3.25,3.92
+R156,H2,Heartbeat@Bedok,65+,Couple,Chinese,Family user,6,3,No,Yes,3.14,2.56,3.06,4,3,4,4,3,3,3,2,2,3,3,3,3.75,2.75,2.75,3.08
+R157,H2,Heartbeat@Bedok,25-34,Couple,Chinese,Routine user,5,1,No,Yes,4.63,2.98,4.28,5,4,5,4,4,4,3,4,4,4,4,4,4.5,3.75,4.0,4.08
+R158,H2,Heartbeat@Bedok,35-44,Family with children,Chinese,Event user,9,2,Yes,Yes,2.78,4.47,3.92,4,3,4,3,4,4,3,3,3,3,3,4,3.5,3.5,3.25,3.42
+R159,H2,Heartbeat@Bedok,55-64,Single,Other,Senior user,4,4,No,No,2.61,5.0,2.51,4,4,4,5,4,4,3,3,2,2,2,1,4.25,3.5,1.75,3.17
+R160,H2,Heartbeat@Bedok,65+,Family with children,Indian,Event user,9,1,Yes,Yes,4.1,3.28,2.95,3,3,4,2,4,4,4,5,3,4,3,4,3.0,4.25,3.5,3.58
+R161,H2,Heartbeat@Bedok,25-34,Couple,Malay,Family user,8,2,Yes,Yes,5.0,3.45,4.13,4,3,4,4,3,3,4,4,4,5,4,5,3.75,3.5,4.5,3.92
+R162,H2,Heartbeat@Bedok,45-54,Family with children,Malay,Routine user,7,5,No,Yes,2.81,4.01,2.02,5,5,4,4,5,5,4,4,3,3,3,3,4.5,4.5,3.0,4.0
+R163,H2,Heartbeat@Bedok,18-24,Family with children,Indian,Routine user,5,2,No,Yes,3.23,4.73,2.82,4,4,4,4,3,3,3,3,4,4,4,3,4.0,3.0,3.75,3.58
+R164,H2,Heartbeat@Bedok,65+,Family with children,Indian,Routine user,7,3,No,Yes,3.66,3.78,2.14,4,4,5,4,2,3,3,4,4,4,3,3,4.25,3.0,3.5,3.58
+R165,H2,Heartbeat@Bedok,65+,Senior household,Chinese,Routine user,5,3,No,Yes,4.08,2.98,3.45,3,3,4,3,3,3,4,3,3,4,3,4,3.25,3.25,3.5,3.33
+R166,H2,Heartbeat@Bedok,35-44,Multi-generational,Chinese,Event user,9,3,No,No,2.84,3.5,1.58,5,5,3,3,3,4,3,3,4,3,3,3,4.0,3.25,3.25,3.5
+R167,H2,Heartbeat@Bedok,18-24,Family with children,Malay,Event user,6,4,No,Yes,4.05,3.67,2.79,4,4,4,4,3,3,3,3,3,3,2,3,4.0,3.0,2.75,3.25
+R168,H2,Heartbeat@Bedok,25-34,Couple,Chinese,Family user,3,1,No,Yes,4.48,4.24,1.38,2,4,3,3,3,4,3,3,3,3,3,3,3.0,3.25,3.0,3.08
+R169,H2,Heartbeat@Bedok,25-34,Couple,Chinese,Event user,5,3,No,Yes,5.0,4.82,2.03,3,4,4,4,3,4,3,3,3,2,2,3,3.75,3.25,2.5,3.17
+R170,H2,Heartbeat@Bedok,65+,Family with children,Chinese,Senior user,4,3,No,Yes,4.52,3.4,2.6,4,4,4,4,2,2,2,3,3,1,2,3,4.0,2.25,2.25,2.83
+R171,H2,Heartbeat@Bedok,25-34,Couple,Indian,Service user,10,4,No,No,2.52,3.76,3.67,3,4,3,4,5,4,5,4,4,3,5,4,3.5,4.5,4.0,4.0
+R172,H2,Heartbeat@Bedok,25-34,Couple,Indian,Routine user,11,2,Yes,Yes,3.03,3.7,2.25,5,5,4,4,3,3,4,4,4,3,4,5,4.5,3.5,4.0,4.0
+R173,H2,Heartbeat@Bedok,25-34,Senior household,Malay,Service user,6,1,No,Yes,2.85,2.18,3.12,4,5,4,4,2,2,3,3,3,3,3,3,4.25,2.5,3.0,3.25
+R174,H2,Heartbeat@Bedok,65+,Family with children,Malay,Routine user,7,5,No,No,2.27,3.72,1.17,3,3,3,4,3,3,3,3,3,3,3,3,3.25,3.0,3.0,3.08
+R175,H2,Heartbeat@Bedok,45-54,Family with children,Malay,Routine user,8,2,No,Yes,4.13,4.11,3.14,4,4,4,4,3,3,3,2,3,3,3,3,4.0,2.75,3.0,3.25
+R176,H2,Heartbeat@Bedok,65+,Family with children,Chinese,Routine user,10,4,No,Yes,2.16,4.02,2.96,4,4,5,4,4,4,4,3,3,3,3,3,4.25,3.75,3.0,3.67
+R177,H2,Heartbeat@Bedok,45-54,Senior household,Chinese,Family user,3,5,No,Yes,3.94,4.61,2.93,4,4,5,4,4,4,3,3,3,3,2,1,4.25,3.5,2.25,3.33
+R178,H2,Heartbeat@Bedok,25-34,Senior household,Chinese,Event user,4,1,No,No,3.67,3.93,3.21,3,4,4,4,3,3,3,3,3,3,3,3,3.75,3.0,3.0,3.25
+R179,H2,Heartbeat@Bedok,65+,Single,Chinese,Routine user,10,3,No,No,2.01,3.39,4.69,4,4,4,5,4,3,2,4,5,3,4,4,4.25,3.25,4.0,3.83
+R180,H2,Heartbeat@Bedok,25-34,Couple,Chinese,Senior user,7,2,Yes,Yes,2.84,2.8,3.21,4,4,5,5,2,4,3,4,3,3,3,3,4.5,3.25,3.0,3.58
+R181,H2,Heartbeat@Bedok,55-64,Couple,Chinese,Routine user,6,2,No,Yes,3.21,4.15,3.32,4,4,5,5,3,5,4,4,3,3,4,3,4.5,4.0,3.25,3.92
+R182,H2,Heartbeat@Bedok,35-44,Senior household,Chinese,Event user,8,2,No,Yes,2.9,3.58,3.33,4,3,3,4,2,2,2,2,2,3,3,3,3.5,2.0,2.75,2.75
+R183,H2,Heartbeat@Bedok,25-34,Family with children,Chinese,Service user,5,2,No,Yes,4.09,3.11,3.1,5,4,5,4,3,4,3,3,4,4,4,3,4.5,3.25,3.75,3.83
+R184,H2,Heartbeat@Bedok,55-64,Senior household,Chinese,Routine user,5,4,No,Yes,3.34,3.4,2.78,5,5,5,4,3,3,2,3,2,3,3,3,4.75,2.75,2.75,3.42
+R185,H2,Heartbeat@Bedok,45-54,Senior household,Chinese,Event user,7,4,No,No,3.82,4.5,2.73,4,3,3,3,4,2,5,4,3,3,3,3,3.25,3.75,3.0,3.33
+R186,H2,Heartbeat@Bedok,25-34,Family with children,Chinese,Event user,6,1,No,Yes,4.64,3.65,2.56,4,4,5,5,4,1,3,2,2,2,2,3,4.5,2.5,2.25,3.08
+R187,H2,Heartbeat@Bedok,65+,Single,Chinese,Senior user,8,1,No,Yes,3.27,2.95,4.43,4,3,3,4,4,3,3,3,3,2,2,3,3.5,3.25,2.5,3.08
+R188,H2,Heartbeat@Bedok,18-24,Family with children,Chinese,Family user,7,2,No,Yes,2.77,3.59,1.0,3,4,3,4,3,3,2,3,1,1,1,1,3.5,2.75,1.0,2.42
+R189,H2,Heartbeat@Bedok,65+,Family with children,Chinese,Senior user,5,2,No,Yes,2.42,4.62,2.8,3,4,4,3,2,3,2,2,2,3,3,3,3.5,2.25,2.75,2.83
+R190,H2,Heartbeat@Bedok,18-24,Multi-generational,Chinese,Event user,3,3,No,Yes,3.58,4.28,3.27,4,3,3,4,2,3,3,1,4,3,3,3,3.5,2.25,3.25,3.0
+R191,H2,Heartbeat@Bedok,18-24,Couple,Chinese,Senior user,7,5,No,Yes,4.99,4.46,2.73,5,4,4,5,4,3,3,3,3,4,3,3,4.5,3.25,3.25,3.67
+R192,H2,Heartbeat@Bedok,65+,Couple,Chinese,Event user,10,1,No,Yes,4.9,5.0,3.76,5,4,4,5,3,3,3,3,3,2,3,3,4.5,3.0,2.75,3.42
+R193,H2,Heartbeat@Bedok,65+,Family with children,Chinese,Routine user,11,3,No,Yes,2.77,2.49,2.44,5,5,5,5,3,3,3,2,4,4,3,3,5.0,2.75,3.5,3.75
+R194,H2,Heartbeat@Bedok,18-24,Senior household,Malay,Routine user,5,4,No,Yes,3.64,4.18,2.77,4,4,3,4,4,3,4,4,4,3,3,2,3.75,3.75,3.0,3.5
+R195,H2,Heartbeat@Bedok,18-24,Couple,Chinese,Senior user,9,1,Yes,No,2.96,4.47,3.01,5,3,4,4,3,3,2,4,4,3,3,4,4.0,3.0,3.5,3.5
+R196,H2,Heartbeat@Bedok,45-54,Family with children,Malay,Routine user,9,3,Yes,Yes,3.56,2.83,2.56,3,4,5,4,4,5,3,4,4,4,4,4,4.0,4.0,4.0,4.0
+R197,H2,Heartbeat@Bedok,65+,Senior household,Chinese,Routine user,6,2,Yes,Yes,3.12,3.33,2.08,4,4,4,4,4,4,4,4,4,4,3,4,4.0,4.0,3.75,3.92
+R198,H2,Heartbeat@Bedok,35-44,Family with children,Indian,Service user,7,3,Yes,No,3.84,4.09,2.75,4,4,3,4,4,3,3,2,3,3,4,4,3.75,3.0,3.5,3.42
+R199,H2,Heartbeat@Bedok,18-24,Family with children,Indian,Event user,5,1,No,Yes,5.0,4.06,2.98,3,4,3,4,3,3,2,3,4,3,2,3,3.5,2.75,3.0,3.08
+R200,H2,Heartbeat@Bedok,35-44,Single,Other,Routine user,8,2,No,Yes,3.8,2.95,3.22,3,4,4,5,3,4,3,4,3,4,3,2,4.0,3.5,3.0,3.5
+R201,H3,One Punggol,45-54,Senior household,Chinese,Routine user,10,3,Yes,Yes,3.7,2.41,1.85,4,4,4,4,4,4,5,4,4,4,5,5,4.0,4.25,4.5,4.25
+R202,H3,One Punggol,25-34,Single,Other,Event user,6,1,No,Yes,2.92,4.62,2.88,3,3,4,3,2,2,3,2,5,4,4,4,3.25,2.25,4.25,3.25
+R203,H3,One Punggol,18-24,Multi-generational,Chinese,Family user,6,3,No,Yes,2.7,3.92,2.64,4,3,3,4,4,4,4,3,3,2,2,3,3.5,3.75,2.5,3.25
+R204,H3,One Punggol,45-54,Senior household,Other,Service user,7,2,No,Yes,4.75,5.0,3.47,5,4,3,3,3,2,2,3,4,5,4,4,3.75,2.5,4.25,3.5
+R205,H3,One Punggol,55-64,Single,Chinese,Event user,5,2,No,Yes,3.93,3.3,2.67,4,4,4,4,4,4,4,4,4,3,2,3,4.0,4.0,3.0,3.67
+R206,H3,One Punggol,45-54,Family with children,Chinese,Service user,4,3,Yes,Yes,3.32,4.86,1.58,3,3,3,3,4,4,4,5,3,4,4,3,3.0,4.25,3.5,3.58
+R207,H3,One Punggol,35-44,Multi-generational,Malay,Service user,6,4,No,Yes,2.87,4.14,2.96,4,4,4,3,4,5,4,5,4,4,4,3,3.75,4.5,3.75,4.0
+R208,H3,One Punggol,25-34,Family with children,Indian,Event user,6,1,Yes,Yes,3.54,2.94,3.55,4,4,4,3,5,4,4,4,4,4,5,4,3.75,4.25,4.25,4.08
+R209,H3,One Punggol,25-34,Senior household,Malay,Routine user,4,2,No,Yes,3.22,3.69,2.86,4,5,5,5,4,4,3,4,3,3,3,3,4.75,3.75,3.0,3.83
+R210,H3,One Punggol,35-44,Couple,Chinese,Service user,12,1,Yes,Yes,3.51,5.0,2.88,4,4,4,3,4,4,5,3,4,4,4,5,3.75,4.0,4.25,4.0
+R211,H3,One Punggol,18-24,Single,Chinese,Family user,5,2,No,Yes,4.01,4.02,3.27,4,4,3,4,4,3,3,4,2,3,2,3,3.75,3.5,2.5,3.25
+R212,H3,One Punggol,35-44,Family with children,Chinese,Family user,6,2,No,Yes,4.17,3.18,2.61,3,4,3,3,4,5,4,5,4,4,4,4,3.25,4.5,4.0,3.92
+R213,H3,One Punggol,35-44,Family with children,Chinese,Family user,4,5,No,Yes,2.62,4.23,4.07,4,4,4,3,4,3,4,4,2,2,3,2,3.75,3.75,2.25,3.25
+R214,H3,One Punggol,35-44,Senior household,Other,Event user,5,4,No,Yes,5.0,4.66,3.42,4,4,4,4,3,4,4,3,4,5,3,4,4.0,3.5,4.0,3.83
+R215,H3,One Punggol,35-44,Couple,Chinese,Routine user,3,3,No,Yes,3.36,3.28,4.35,5,5,5,4,4,3,3,2,4,3,4,3,4.75,3.0,3.5,3.75
+R216,H3,One Punggol,55-64,Family with children,Chinese,Family user,8,1,Yes,No,3.43,4.94,3.48,4,3,5,3,4,5,5,4,3,3,3,2,3.75,4.5,2.75,3.67
+R217,H3,One Punggol,55-64,Family with children,Chinese,Routine user,6,3,Yes,No,3.0,3.81,3.74,4,4,4,5,4,4,4,4,4,3,4,4,4.25,4.0,3.75,4.0
+R218,H3,One Punggol,25-34,Single,Chinese,Senior user,11,2,No,Yes,4.96,3.82,2.58,4,5,4,4,4,4,4,4,5,5,3,5,4.25,4.0,4.5,4.25
+R219,H3,One Punggol,55-64,Couple,Malay,Routine user,11,4,Yes,Yes,3.41,3.06,2.39,5,4,4,5,5,5,5,5,4,4,4,4,4.5,5.0,4.0,4.5
+R220,H3,One Punggol,45-54,Single,Indian,Routine user,7,2,No,Yes,2.72,4.56,1.3,3,3,4,4,5,5,5,5,3,2,2,2,3.5,5.0,2.25,3.58
+R221,H3,One Punggol,25-34,Single,Malay,Service user,11,2,No,Yes,3.39,3.96,3.06,5,5,4,5,3,4,4,4,3,3,4,3,4.75,3.75,3.25,3.92
+R222,H3,One Punggol,18-24,Family with children,Chinese,Routine user,10,2,Yes,Yes,3.28,3.79,3.43,5,5,5,4,5,4,4,4,4,3,3,4,4.75,4.25,3.5,4.17
+R223,H3,One Punggol,35-44,Single,Malay,Event user,8,3,No,No,3.19,3.72,1.17,3,4,3,3,3,4,4,4,4,3,4,4,3.25,3.75,3.75,3.58
+R224,H3,One Punggol,45-54,Couple,Chinese,Routine user,5,3,No,Yes,2.34,4.48,3.48,4,3,3,3,4,5,4,3,4,4,3,3,3.25,4.0,3.5,3.58
+R225,H3,One Punggol,45-54,Multi-generational,Malay,Routine user,5,3,No,Yes,4.65,3.86,3.64,5,5,4,4,3,3,4,3,3,4,4,4,4.5,3.25,3.75,3.83
+R226,H3,One Punggol,25-34,Senior household,Indian,Event user,5,3,Yes,Yes,4.26,4.37,3.83,4,5,4,4,4,2,3,4,4,4,3,4,4.25,3.25,3.75,3.75
+R227,H3,One Punggol,65+,Multi-generational,Indian,Event user,5,4,No,Yes,3.71,4.82,3.23,4,5,5,5,5,4,4,5,4,4,5,4,4.75,4.5,4.25,4.5
+R228,H3,One Punggol,55-64,Single,Indian,Service user,5,1,Yes,No,3.58,2.97,3.87,3,4,3,3,5,4,3,5,3,3,3,4,3.25,4.25,3.25,3.58
+R229,H3,One Punggol,35-44,Single,Malay,Family user,6,3,No,Yes,4.53,4.53,3.26,5,5,5,5,4,5,5,4,3,2,3,3,5.0,4.5,2.75,4.08
+R230,H3,One Punggol,18-24,Multi-generational,Chinese,Family user,5,1,No,No,3.58,3.81,2.28,3,3,3,3,4,3,3,3,3,3,3,3,3.0,3.25,3.0,3.08
+R231,H3,One Punggol,18-24,Family with children,Chinese,Senior user,9,5,No,Yes,2.3,4.17,2.44,3,4,4,4,5,4,5,5,3,4,3,4,3.75,4.75,3.5,4.0
+R232,H3,One Punggol,25-34,Multi-generational,Chinese,Event user,8,2,No,Yes,4.18,3.55,2.58,5,5,4,4,5,4,3,3,3,3,3,3,4.5,3.75,3.0,3.75
+R233,H3,One Punggol,35-44,Multi-generational,Malay,Service user,6,1,Yes,Yes,3.98,4.73,3.47,5,4,3,3,3,3,2,3,4,5,5,5,3.75,2.75,4.75,3.75
+R234,H3,One Punggol,55-64,Single,Indian,Service user,10,2,Yes,No,3.04,4.41,2.4,4,4,3,3,5,5,5,5,4,4,4,4,3.5,5.0,4.0,4.17
+R235,H3,One Punggol,35-44,Couple,Chinese,Service user,8,3,Yes,Yes,3.6,3.79,2.76,3,4,4,4,3,3,4,4,5,4,5,4,3.75,3.5,4.5,3.92
+R236,H3,One Punggol,35-44,Couple,Chinese,Service user,6,2,No,Yes,3.13,2.57,1.75,4,4,5,5,2,3,3,2,2,3,3,3,4.5,2.5,2.75,3.25
+R237,H3,One Punggol,25-34,Multi-generational,Chinese,Routine user,3,3,No,Yes,3.34,3.86,2.3,5,4,3,4,5,4,4,4,3,2,3,3,4.0,4.25,2.75,3.67
+R238,H3,One Punggol,18-24,Multi-generational,Indian,Event user,11,2,Yes,Yes,2.72,3.73,1.81,3,3,4,4,4,4,5,4,3,4,3,4,3.5,4.25,3.5,3.75
+R239,H3,One Punggol,35-44,Family with children,Chinese,Routine user,4,2,No,Yes,3.47,4.42,2.0,4,4,4,4,3,3,3,3,3,2,4,3,4.0,3.0,3.0,3.33
+R240,H3,One Punggol,25-34,Senior household,Chinese,Family user,7,3,No,No,4.37,4.26,2.4,4,5,5,4,3,3,3,4,3,3,4,3,4.5,3.25,3.25,3.67
+R241,H3,One Punggol,35-44,Family with children,Malay,Service user,6,1,Yes,Yes,2.73,4.87,1.72,3,4,5,3,4,3,3,3,3,3,2,3,3.75,3.25,2.75,3.25
+R242,H3,One Punggol,65+,Family with children,Chinese,Family user,4,3,No,Yes,4.04,4.23,2.25,5,4,5,4,4,4,5,4,4,4,4,4,4.5,4.25,4.0,4.25
+R243,H3,One Punggol,45-54,Multi-generational,Malay,Event user,6,1,No,Yes,4.37,3.88,3.25,5,5,4,4,5,5,4,5,4,4,5,4,4.5,4.75,4.25,4.5
+R244,H3,One Punggol,35-44,Family with children,Chinese,Routine user,7,5,No,Yes,4.2,3.36,3.87,4,5,5,5,4,3,4,3,3,3,3,3,4.75,3.5,3.0,3.75
+R245,H3,One Punggol,45-54,Senior household,Chinese,Family user,4,3,No,Yes,4.19,5.0,1.66,3,4,4,4,4,3,4,4,3,3,3,4,3.75,3.75,3.25,3.58
+R246,H3,One Punggol,65+,Multi-generational,Chinese,Routine user,6,5,No,Yes,3.84,4.65,2.42,5,4,5,5,3,3,3,4,4,4,4,4,4.75,3.25,4.0,4.0
+R247,H3,One Punggol,35-44,Couple,Chinese,Event user,7,4,No,Yes,3.13,4.53,2.44,4,3,4,4,4,5,4,4,4,3,3,4,3.75,4.25,3.5,3.83
+R248,H3,One Punggol,25-34,Couple,Other,Family user,7,1,Yes,Yes,4.27,2.19,3.71,3,4,3,3,4,4,4,4,4,4,4,4,3.25,4.0,4.0,3.75
+R249,H3,One Punggol,35-44,Single,Chinese,Family user,7,4,No,Yes,3.47,3.54,2.97,4,4,3,5,4,4,5,4,3,3,3,3,4.0,4.25,3.0,3.75
+R250,H3,One Punggol,35-44,Senior household,Chinese,Service user,10,3,No,Yes,5.0,4.11,1.51,4,4,3,4,3,3,4,4,4,3,4,3,3.75,3.5,3.5,3.58
+R251,H3,One Punggol,35-44,Senior household,Indian,Family user,6,1,No,Yes,4.36,3.61,2.67,4,3,4,4,3,3,3,3,3,4,4,3,3.75,3.0,3.5,3.42
+R252,H3,One Punggol,55-64,Family with children,Indian,Senior user,3,2,No,Yes,3.95,3.46,1.55,4,3,3,4,4,4,4,5,4,3,4,3,3.5,4.25,3.5,3.75
+R253,H3,One Punggol,45-54,Multi-generational,Chinese,Senior user,5,3,No,Yes,3.23,4.83,2.29,4,2,4,4,3,3,3,3,4,3,3,4,3.5,3.0,3.5,3.33
+R254,H3,One Punggol,45-54,Couple,Chinese,Service user,2,2,Yes,Yes,4.36,5.0,2.5,5,5,4,4,4,3,4,4,3,3,2,2,4.5,3.75,2.5,3.58
+R255,H3,One Punggol,55-64,Single,Chinese,Routine user,7,3,No,Yes,4.02,4.67,1.86,4,4,4,4,3,4,4,3,4,3,4,3,4.0,3.5,3.5,3.67
+R256,H3,One Punggol,55-64,Single,Other,Family user,8,4,Yes,No,4.15,4.63,3.65,4,3,5,4,4,4,3,4,4,4,3,4,4.0,3.75,3.75,3.83
+R257,H3,One Punggol,65+,Couple,Chinese,Event user,11,3,No,No,3.78,3.87,2.45,3,4,4,4,4,3,4,3,5,4,4,5,3.75,3.5,4.5,3.92
+R258,H3,One Punggol,35-44,Single,Chinese,Routine user,12,4,No,Yes,2.98,3.31,3.48,4,4,4,3,4,5,4,3,4,4,4,4,3.75,4.0,4.0,3.92
+R259,H3,One Punggol,25-34,Family with children,Indian,Service user,5,4,Yes,Yes,3.82,4.67,2.37,3,3,3,2,5,3,4,4,4,3,4,2,2.75,4.0,3.25,3.33
+R260,H3,One Punggol,35-44,Senior household,Chinese,Service user,8,1,No,Yes,3.97,3.72,1.93,3,4,4,3,5,5,5,4,4,3,3,3,3.5,4.75,3.25,3.83
+R261,H3,One Punggol,45-54,Multi-generational,Chinese,Service user,6,1,No,Yes,4.91,4.97,4.1,4,4,3,4,5,4,4,5,4,4,4,4,3.75,4.5,4.0,4.08
+R262,H3,One Punggol,25-34,Multi-generational,Malay,Routine user,5,5,Yes,Yes,2.41,3.26,2.79,4,4,5,4,4,4,4,4,3,3,3,3,4.25,4.0,3.0,3.75
+R263,H3,One Punggol,55-64,Multi-generational,Chinese,Routine user,11,2,No,Yes,3.26,5.0,3.42,3,4,3,4,4,3,4,3,3,4,4,3,3.5,3.5,3.5,3.5
+R264,H3,One Punggol,45-54,Multi-generational,Chinese,Service user,4,2,No,Yes,4.68,4.39,1.63,4,4,4,3,4,4,5,3,2,3,3,3,3.75,4.0,2.75,3.5
+R265,H3,One Punggol,25-34,Multi-generational,Chinese,Event user,9,3,No,Yes,4.9,4.14,2.28,4,4,4,4,5,4,5,4,4,4,4,3,4.0,4.5,3.75,4.08
+R266,H3,One Punggol,25-34,Couple,Chinese,Family user,9,1,No,Yes,4.99,3.93,3.18,5,5,5,4,4,5,4,4,4,3,3,3,4.75,4.25,3.25,4.08
+R267,H3,One Punggol,25-34,Senior household,Chinese,Service user,10,4,No,No,4.89,3.79,4.29,4,3,3,4,3,4,4,3,4,5,5,4,3.5,3.5,4.5,3.83
+R268,H3,One Punggol,45-54,Senior household,Malay,Event user,11,1,Yes,Yes,4.44,5.0,1.24,4,4,4,3,5,5,5,5,3,4,4,3,3.75,5.0,3.5,4.08
+R269,H3,One Punggol,55-64,Senior household,Other,Event user,8,5,No,Yes,3.75,4.83,2.83,4,4,3,4,4,3,4,4,3,4,3,3,3.75,3.75,3.25,3.58
+R270,H3,One Punggol,55-64,Family with children,Chinese,Service user,7,2,No,No,4.28,4.64,2.4,4,4,4,3,4,5,5,4,4,4,5,4,3.75,4.5,4.25,4.17
+R271,H3,One Punggol,25-34,Couple,Chinese,Event user,7,5,Yes,Yes,3.28,3.82,4.15,4,4,4,4,3,5,5,5,3,4,4,3,4.0,4.5,3.5,4.0
+R272,H3,One Punggol,55-64,Multi-generational,Malay,Routine user,8,4,No,No,3.73,3.56,2.71,3,4,3,4,3,4,3,3,4,4,4,5,3.5,3.25,4.25,3.67
+R273,H3,One Punggol,25-34,Couple,Chinese,Routine user,9,5,No,Yes,3.5,3.88,2.23,4,4,4,4,5,4,4,4,5,4,3,4,4.0,4.25,4.0,4.08
+R274,H3,One Punggol,18-24,Multi-generational,Other,Family user,9,2,No,Yes,3.36,3.75,3.67,5,5,4,4,4,4,4,4,5,5,4,4,4.5,4.0,4.5,4.33
+R275,H3,One Punggol,45-54,Multi-generational,Chinese,Family user,6,2,No,Yes,3.28,3.69,2.81,4,3,4,4,3,4,3,3,4,4,4,4,3.75,3.25,4.0,3.67
+R276,H3,One Punggol,18-24,Multi-generational,Chinese,Family user,7,1,No,Yes,5.0,5.0,2.73,4,4,3,4,4,4,4,4,4,4,4,5,3.75,4.0,4.25,4.0
+R277,H3,One Punggol,25-34,Couple,Indian,Family user,8,3,No,Yes,3.83,3.24,2.26,4,4,3,3,5,4,5,5,3,3,3,3,3.5,4.75,3.0,3.75
+R278,H3,One Punggol,25-34,Single,Indian,Routine user,7,2,No,No,4.29,3.61,2.91,4,4,4,4,4,3,4,3,4,4,3,4,4.0,3.5,3.75,3.75
+R279,H3,One Punggol,25-34,Family with children,Chinese,Family user,9,3,No,Yes,4.33,3.94,2.77,4,4,5,5,5,4,4,4,3,3,4,4,4.5,4.25,3.5,4.08
+R280,H3,One Punggol,18-24,Senior household,Chinese,Service user,8,1,No,No,2.99,4.28,2.59,4,4,3,4,5,4,4,4,3,3,3,4,3.75,4.25,3.25,3.75
+R281,H3,One Punggol,35-44,Couple,Malay,Routine user,5,2,No,Yes,4.67,4.03,3.19,5,4,4,4,4,4,4,3,3,3,3,4,4.25,3.75,3.25,3.75
+R282,H3,One Punggol,35-44,Senior household,Chinese,Event user,6,4,No,No,4.5,4.26,3.56,3,4,4,4,5,5,4,5,3,3,3,3,3.75,4.75,3.0,3.83
+R283,H3,One Punggol,45-54,Couple,Indian,Senior user,10,4,No,Yes,1.0,4.91,2.37,4,3,3,4,5,5,4,4,3,3,4,2,3.5,4.5,3.0,3.67
+R284,H3,One Punggol,25-34,Family with children,Chinese,Event user,7,1,No,Yes,3.6,4.56,2.75,3,3,3,3,3,2,3,3,3,4,3,3,3.0,2.75,3.25,3.0
+R285,H3,One Punggol,18-24,Family with children,Chinese,Service user,9,4,Yes,No,3.39,5.0,2.62,4,4,4,4,3,4,3,3,3,4,5,4,4.0,3.25,4.0,3.75
+R286,H3,One Punggol,25-34,Single,Chinese,Routine user,9,3,No,Yes,3.73,5.0,3.31,5,5,5,5,5,4,4,5,5,5,4,5,5.0,4.5,4.75,4.75
+R287,H3,One Punggol,25-34,Single,Chinese,Event user,10,2,No,Yes,5.0,4.4,2.07,4,4,4,4,5,4,4,4,5,4,4,5,4.0,4.25,4.5,4.25
+R288,H3,One Punggol,65+,Family with children,Chinese,Service user,5,4,No,Yes,4.29,3.75,3.06,4,5,5,4,4,4,4,3,4,4,4,4,4.5,3.75,4.0,4.08
+R289,H3,One Punggol,55-64,Single,Chinese,Event user,7,3,Yes,Yes,4.59,4.36,1.73,3,4,3,3,5,5,5,5,5,4,4,5,3.25,5.0,4.5,4.25
+R290,H3,One Punggol,65+,Couple,Chinese,Senior user,14,1,Yes,Yes,2.95,4.23,2.35,4,4,4,5,4,4,5,4,5,4,4,4,4.25,4.25,4.25,4.25
+R291,H3,One Punggol,35-44,Single,Malay,Routine user,9,2,No,Yes,3.95,3.45,3.22,4,5,5,5,3,4,4,4,4,5,4,3,4.75,3.75,4.0,4.17
+R292,H3,One Punggol,25-34,Family with children,Chinese,Family user,8,1,No,Yes,1.72,5.0,3.45,4,4,5,5,3,4,3,4,4,4,4,4,4.5,3.5,4.0,4.0
+R293,H3,One Punggol,35-44,Multi-generational,Chinese,Family user,9,2,No,Yes,4.42,4.51,3.35,5,4,5,4,4,4,4,4,5,4,4,4,4.5,4.0,4.25,4.25
+R294,H3,One Punggol,55-64,Single,Other,Senior user,7,1,Yes,Yes,4.55,4.18,2.08,4,4,4,4,3,4,4,3,2,2,2,3,4.0,3.5,2.25,3.25
+R295,H3,One Punggol,65+,Family with children,Chinese,Family user,9,3,No,Yes,3.27,4.67,3.99,5,5,4,4,4,4,4,5,3,4,4,4,4.5,4.25,3.75,4.17
+R296,H3,One Punggol,25-34,Senior household,Chinese,Event user,5,2,No,Yes,3.55,4.14,3.34,3,3,4,3,5,5,5,5,2,1,3,2,3.25,5.0,2.0,3.42
+R297,H3,One Punggol,25-34,Single,Malay,Routine user,6,2,No,Yes,3.17,4.53,2.55,4,5,5,4,4,4,5,5,3,3,4,3,4.5,4.5,3.25,4.08
+R298,H3,One Punggol,18-24,Senior household,Chinese,Senior user,4,4,Yes,Yes,4.2,5.0,2.44,4,4,4,4,4,4,3,3,5,5,5,5,4.0,3.5,5.0,4.17
+R299,H3,One Punggol,55-64,Family with children,Chinese,Family user,6,1,Yes,Yes,4.7,5.0,2.7,4,4,4,4,3,4,3,4,5,4,4,5,4.0,3.5,4.5,4.0
+R300,H3,One Punggol,35-44,Family with children,Other,Routine user,11,3,No,Yes,5.0,3.63,1.74,5,5,5,4,5,5,5,5,5,5,5,4,4.75,5.0,4.75,4.83
+R301,H4,Bukit Canberra,25-34,Multi-generational,Malay,Routine user,4,1,No,Yes,1.97,3.62,1.67,2,4,3,3,2,2,3,3,3,2,1,3,3.0,2.5,2.25,2.58
+R302,H4,Bukit Canberra,45-54,Senior household,Malay,Routine user,11,3,No,Yes,1.88,3.65,2.71,5,5,5,4,4,4,5,5,2,1,2,2,4.75,4.5,1.75,3.67
+R303,H4,Bukit Canberra,25-34,Couple,Malay,Service user,10,3,No,Yes,3.4,3.26,1.02,3,3,2,2,3,3,3,2,3,3,4,4,2.5,2.75,3.5,2.92
+R304,H4,Bukit Canberra,65+,Family with children,Other,Service user,9,5,No,Yes,4.06,2.5,1.08,4,4,4,4,4,4,4,3,3,3,2,3,4.0,3.75,2.75,3.5
+R305,H4,Bukit Canberra,18-24,Family with children,Chinese,Family user,6,2,No,No,4.48,3.09,1.72,4,3,3,4,3,4,5,4,2,3,2,2,3.5,4.0,2.25,3.25
+R306,H4,Bukit Canberra,65+,Single,Chinese,Routine user,12,2,Yes,Yes,2.6,2.7,1.05,4,5,5,5,3,4,3,3,4,3,4,4,4.75,3.25,3.75,3.92
+R307,H4,Bukit Canberra,25-34,Couple,Other,Routine user,9,3,No,No,2.48,3.37,1.05,3,4,4,4,3,2,3,3,2,4,3,3,3.75,2.75,3.0,3.17
+R308,H4,Bukit Canberra,45-54,Family with children,Chinese,Routine user,6,4,No,Yes,2.75,3.81,1.0,3,3,4,3,3,4,3,3,2,3,3,3,3.25,3.25,2.75,3.08
+R309,H4,Bukit Canberra,25-34,Single,Other,Family user,10,5,Yes,Yes,3.1,4.41,1.76,4,4,5,4,4,4,4,3,4,4,4,5,4.25,3.75,4.25,4.08
+R310,H4,Bukit Canberra,55-64,Couple,Malay,Family user,8,2,No,Yes,2.59,3.28,1.32,4,3,4,3,4,3,3,3,2,2,2,2,3.5,3.25,2.0,2.92
+R311,H4,Bukit Canberra,45-54,Senior household,Chinese,Family user,10,4,Yes,Yes,3.69,2.66,1.78,4,4,3,4,3,3,3,2,3,3,2,3,3.75,2.75,2.75,3.08
+R312,H4,Bukit Canberra,45-54,Multi-generational,Chinese,Family user,7,2,No,Yes,3.24,3.67,2.8,3,3,4,3,3,5,5,4,3,3,4,3,3.25,4.25,3.25,3.58
+R313,H4,Bukit Canberra,65+,Family with children,Malay,Service user,6,2,No,Yes,3.0,3.66,1.97,5,4,4,4,3,3,2,2,2,1,2,3,4.25,2.5,2.0,2.92
+R314,H4,Bukit Canberra,65+,Couple,Malay,Family user,9,4,No,Yes,2.59,3.45,1.26,4,4,4,4,3,3,3,3,3,3,3,3,4.0,3.0,3.0,3.33
+R315,H4,Bukit Canberra,45-54,Family with children,Chinese,Family user,9,2,No,Yes,2.97,4.29,1.41,4,4,4,5,4,3,3,4,2,3,3,3,4.25,3.5,2.75,3.5
+R316,H4,Bukit Canberra,65+,Multi-generational,Indian,Event user,10,1,No,Yes,4.19,2.16,2.01,4,4,4,4,3,2,2,2,3,3,3,2,4.0,2.25,2.75,3.0
+R317,H4,Bukit Canberra,35-44,Couple,Chinese,Routine user,7,3,No,Yes,2.68,2.61,2.38,4,3,4,3,4,2,3,4,2,1,2,2,3.5,3.25,1.75,2.83
+R318,H4,Bukit Canberra,25-34,Couple,Chinese,Family user,7,1,No,Yes,3.15,2.11,3.08,3,4,3,2,3,4,3,3,4,3,3,4,3.0,3.25,3.5,3.25
+R319,H4,Bukit Canberra,35-44,Family with children,Indian,Family user,7,3,No,No,2.74,2.96,1.92,3,2,3,3,4,3,3,4,4,3,4,3,2.75,3.5,3.5,3.25
+R320,H4,Bukit Canberra,25-34,Family with children,Chinese,Event user,7,1,No,No,2.99,3.17,1.9,2,3,3,3,3,2,2,2,3,3,3,3,2.75,2.25,3.0,2.67
+R321,H4,Bukit Canberra,55-64,Senior household,Chinese,Routine user,5,3,Yes,Yes,3.84,3.22,2.06,3,4,4,4,2,3,3,3,3,3,3,2,3.75,2.75,2.75,3.08
+R322,H4,Bukit Canberra,55-64,Senior household,Indian,Event user,6,3,No,Yes,3.78,2.21,2.98,3,3,3,3,3,2,2,2,2,2,2,3,3.0,2.25,2.25,2.5
+R323,H4,Bukit Canberra,65+,Senior household,Other,Family user,8,4,No,No,2.08,3.31,2.27,4,5,4,4,3,3,2,2,3,3,3,2,4.25,2.5,2.75,3.17
+R324,H4,Bukit Canberra,55-64,Multi-generational,Malay,Senior user,10,2,No,No,2.56,2.36,1.09,4,4,3,3,3,3,3,3,3,4,4,3,3.5,3.0,3.5,3.33
+R325,H4,Bukit Canberra,65+,Single,Chinese,Senior user,3,4,No,Yes,4.23,2.54,1.74,3,3,3,4,3,3,3,3,3,3,3,3,3.25,3.0,3.0,3.08
+R326,H4,Bukit Canberra,18-24,Family with children,Chinese,Family user,7,3,No,Yes,4.18,3.54,1.0,4,3,4,3,4,3,3,3,3,3,4,3,3.5,3.25,3.25,3.33
+R327,H4,Bukit Canberra,55-64,Multi-generational,Chinese,Family user,10,5,Yes,Yes,1.44,2.74,2.52,5,4,4,4,4,5,4,5,2,2,2,3,4.25,4.5,2.25,3.67
+R328,H4,Bukit Canberra,25-34,Senior household,Malay,Service user,9,2,No,Yes,3.98,3.06,2.82,3,3,4,4,4,3,3,4,3,4,3,3,3.5,3.5,3.25,3.42
+R329,H4,Bukit Canberra,18-24,Couple,Malay,Service user,8,1,No,No,2.99,2.36,1.04,3,3,3,3,4,4,3,3,4,4,4,4,3.0,3.5,4.0,3.5
+R330,H4,Bukit Canberra,35-44,Couple,Indian,Routine user,7,2,Yes,Yes,2.77,3.35,2.53,5,3,3,4,4,3,3,3,4,5,4,4,3.75,3.25,4.25,3.75
+R331,H4,Bukit Canberra,55-64,Single,Chinese,Senior user,10,3,No,Yes,3.3,2.47,1.78,4,5,5,4,3,3,3,3,3,3,3,3,4.5,3.0,3.0,3.5
+R332,H4,Bukit Canberra,55-64,Family with children,Malay,Service user,8,4,No,No,4.38,2.34,1.13,5,5,4,3,3,4,4,4,2,3,3,3,4.25,3.75,2.75,3.58
+R333,H4,Bukit Canberra,35-44,Senior household,Chinese,Routine user,8,3,Yes,Yes,3.82,3.46,2.21,3,3,3,4,3,4,4,4,4,3,4,3,3.25,3.75,3.5,3.5
+R334,H4,Bukit Canberra,55-64,Single,Indian,Routine user,8,4,No,Yes,2.43,2.56,1.54,5,4,4,5,3,2,3,3,3,3,4,3,4.5,2.75,3.25,3.5
+R335,H4,Bukit Canberra,25-34,Family with children,Chinese,Service user,6,2,No,Yes,3.51,3.68,1.94,4,3,2,3,3,3,3,4,3,3,3,3,3.0,3.25,3.0,3.08
+R336,H4,Bukit Canberra,55-64,Couple,Chinese,Routine user,8,1,No,Yes,3.14,3.7,2.83,3,4,5,4,3,4,2,3,2,3,3,3,4.0,3.0,2.75,3.25
+R337,H4,Bukit Canberra,25-34,Couple,Chinese,Family user,5,3,Yes,Yes,3.93,3.19,1.43,3,3,3,3,3,3,3,3,3,2,3,3,3.0,3.0,2.75,2.92
+R338,H4,Bukit Canberra,45-54,Couple,Chinese,Family user,5,4,Yes,Yes,3.41,3.35,1.5,3,2,4,3,4,4,3,4,3,3,4,3,3.0,3.75,3.25,3.33
+R339,H4,Bukit Canberra,35-44,Family with children,Other,Event user,6,3,No,No,2.39,3.77,2.21,3,2,4,3,3,3,3,3,2,2,3,3,3.0,3.0,2.5,2.83
+R340,H4,Bukit Canberra,45-54,Senior household,Chinese,Routine user,11,4,No,Yes,3.2,3.52,1.11,4,4,4,4,3,3,2,2,4,3,4,4,4.0,2.5,3.75,3.42
+R341,H4,Bukit Canberra,65+,Family with children,Chinese,Event user,2,3,No,Yes,1.98,3.76,1.0,3,2,2,2,4,3,3,3,3,2,2,2,2.25,3.25,2.25,2.58
+R342,H4,Bukit Canberra,25-34,Couple,Indian,Service user,4,3,No,Yes,4.03,3.88,2.89,3,2,3,3,4,4,3,4,2,1,2,2,2.75,3.75,1.75,2.75
+R343,H4,Bukit Canberra,55-64,Single,Chinese,Family user,9,1,No,No,2.87,3.53,2.67,3,3,3,3,3,3,4,3,2,3,2,3,3.0,3.25,2.5,2.92
+R344,H4,Bukit Canberra,45-54,Multi-generational,Chinese,Family user,8,4,No,No,3.24,3.57,1.69,4,4,4,4,3,3,3,3,3,3,3,3,4.0,3.0,3.0,3.33
+R345,H4,Bukit Canberra,25-34,Couple,Chinese,Service user,7,3,No,Yes,3.07,3.31,1.34,4,4,4,3,3,3,3,3,2,2,2,3,3.75,3.0,2.25,3.0
+R346,H4,Bukit Canberra,45-54,Multi-generational,Chinese,Service user,8,2,No,Yes,3.26,4.57,2.3,4,4,3,3,3,3,3,3,3,3,2,3,3.5,3.0,2.75,3.08
+R347,H4,Bukit Canberra,45-54,Single,Malay,Routine user,9,1,No,No,3.73,1.55,1.95,3,3,2,3,2,2,3,2,2,3,2,2,2.75,2.25,2.25,2.42
+R348,H4,Bukit Canberra,65+,Family with children,Chinese,Routine user,7,2,Yes,Yes,2.47,3.02,2.19,4,4,3,4,3,2,2,2,4,3,3,3,3.75,2.25,3.25,3.08
+R349,H4,Bukit Canberra,35-44,Single,Other,Event user,9,1,No,Yes,3.54,4.94,1.25,3,4,3,4,4,4,4,4,3,3,3,3,3.5,4.0,3.0,3.5
+R350,H4,Bukit Canberra,35-44,Family with children,Chinese,Service user,9,4,No,Yes,1.7,3.76,2.73,4,4,5,4,3,3,2,3,3,3,2,3,4.25,2.75,2.75,3.25
+R351,H4,Bukit Canberra,35-44,Multi-generational,Other,Senior user,3,1,Yes,Yes,4.65,3.09,1.0,3,4,3,3,3,2,3,3,2,3,3,3,3.25,2.75,2.75,2.92
+R352,H4,Bukit Canberra,18-24,Single,Chinese,Senior user,6,5,No,No,3.56,2.56,2.77,3,4,4,4,4,5,4,4,2,2,2,2,3.75,4.25,2.0,3.33
+R353,H4,Bukit Canberra,18-24,Single,Malay,Service user,11,5,No,Yes,2.92,3.52,1.0,4,4,4,4,5,5,5,4,2,3,3,3,4.0,4.75,2.75,3.83
+R354,H4,Bukit Canberra,45-54,Senior household,Malay,Family user,8,1,No,Yes,2.69,4.59,1.46,3,2,3,3,3,3,3,3,2,1,2,1,2.75,3.0,1.5,2.42
+R355,H4,Bukit Canberra,45-54,Family with children,Chinese,Service user,5,3,No,No,3.55,2.58,1.17,3,4,3,3,3,2,2,3,3,3,3,3,3.25,2.5,3.0,2.92
+R356,H4,Bukit Canberra,65+,Single,Chinese,Service user,4,2,No,Yes,3.6,4.79,1.0,3,3,2,2,2,3,3,2,3,3,3,3,2.5,2.5,3.0,2.67
+R357,H4,Bukit Canberra,45-54,Family with children,Indian,Senior user,4,3,No,Yes,4.03,3.46,2.57,3,4,4,3,3,2,3,3,3,2,3,3,3.5,2.75,2.75,3.0
+R358,H4,Bukit Canberra,35-44,Couple,Chinese,Family user,3,2,Yes,No,3.74,3.59,2.37,3,2,3,3,2,2,2,4,2,3,2,2,2.75,2.5,2.25,2.5
+R359,H4,Bukit Canberra,25-34,Couple,Chinese,Event user,4,3,No,Yes,3.21,3.59,1.16,3,2,3,4,4,4,4,3,3,2,2,2,3.0,3.75,2.25,3.0
+R360,H4,Bukit Canberra,25-34,Family with children,Chinese,Service user,1,2,No,Yes,2.66,4.36,1.86,3,3,3,4,2,3,2,3,1,2,1,1,3.25,2.5,1.25,2.33
+R361,H4,Bukit Canberra,35-44,Senior household,Chinese,Family user,6,2,No,Yes,2.9,2.79,2.62,3,4,3,3,4,3,3,4,2,2,2,1,3.25,3.5,1.75,2.83
+R362,H4,Bukit Canberra,65+,Couple,Indian,Service user,3,5,Yes,Yes,2.8,2.47,1.0,3,2,3,3,3,4,4,4,3,1,2,2,2.75,3.75,2.0,2.83
+R363,H4,Bukit Canberra,18-24,Single,Malay,Event user,6,1,No,Yes,3.51,2.55,1.4,2,3,4,2,2,2,2,2,4,3,4,3,2.75,2.0,3.5,2.75
+R364,H4,Bukit Canberra,55-64,Couple,Malay,Routine user,6,5,No,Yes,3.19,4.24,2.8,4,3,4,3,3,4,4,4,3,3,3,2,3.5,3.75,2.75,3.33
+R365,H4,Bukit Canberra,45-54,Family with children,Chinese,Family user,5,2,No,No,3.57,3.03,2.58,4,3,3,3,2,3,2,2,2,3,3,2,3.25,2.25,2.5,2.67
+R366,H4,Bukit Canberra,25-34,Family with children,Chinese,Routine user,11,3,No,Yes,2.65,2.81,1.0,3,4,3,4,4,4,3,4,2,3,4,3,3.5,3.75,3.0,3.42
+R367,H4,Bukit Canberra,55-64,Couple,Chinese,Family user,6,4,No,Yes,4.43,3.57,2.27,3,3,3,3,3,2,2,3,2,2,3,3,3.0,2.5,2.5,2.67
+R368,H4,Bukit Canberra,65+,Single,Chinese,Senior user,9,2,No,Yes,2.74,2.92,2.38,4,3,3,3,3,3,3,3,3,4,4,2,3.25,3.0,3.25,3.17
+R369,H4,Bukit Canberra,65+,Couple,Chinese,Event user,4,1,No,Yes,3.61,4.22,1.0,2,2,3,2,3,3,2,3,3,3,1,3,2.25,2.75,2.5,2.5
+R370,H4,Bukit Canberra,45-54,Family with children,Malay,Service user,7,3,No,Yes,2.35,2.31,1.31,4,4,3,4,4,4,4,4,4,3,2,3,3.75,4.0,3.0,3.58
+R371,H4,Bukit Canberra,65+,Multi-generational,Indian,Service user,8,4,No,Yes,2.57,2.94,2.53,4,4,4,5,2,1,1,1,3,2,2,3,4.25,1.25,2.5,2.67
+R372,H4,Bukit Canberra,18-24,Family with children,Malay,Routine user,8,2,Yes,Yes,2.69,3.87,1.57,3,3,3,4,4,4,3,3,4,3,4,3,3.25,3.5,3.5,3.42
+R373,H4,Bukit Canberra,25-34,Family with children,Chinese,Event user,5,3,No,Yes,4.39,3.65,2.32,4,4,3,3,3,3,3,4,2,2,1,1,3.5,3.25,1.5,2.75
+R374,H4,Bukit Canberra,45-54,Multi-generational,Indian,Family user,8,4,No,Yes,2.6,2.74,1.99,3,3,5,4,3,3,4,3,2,1,1,2,3.75,3.25,1.5,2.83
+R375,H4,Bukit Canberra,25-34,Family with children,Other,Event user,9,2,No,Yes,4.74,1.75,2.01,4,4,3,3,2,2,3,3,3,3,3,2,3.5,2.5,2.75,2.92
+R376,H4,Bukit Canberra,35-44,Multi-generational,Chinese,Service user,8,3,No,No,3.58,3.34,2.28,3,3,4,3,3,4,4,3,4,3,2,3,3.25,3.5,3.0,3.25
+R377,H4,Bukit Canberra,65+,Single,Indian,Routine user,11,1,No,No,2.3,3.62,2.06,4,4,5,4,4,3,3,3,3,3,3,3,4.25,3.25,3.0,3.5
+R378,H4,Bukit Canberra,18-24,Family with children,Chinese,Senior user,11,3,Yes,No,3.96,4.1,1.92,5,5,4,5,3,4,3,3,2,3,3,2,4.75,3.25,2.5,3.5
+R379,H4,Bukit Canberra,25-34,Couple,Indian,Event user,6,3,No,Yes,3.19,3.98,1.85,4,5,5,4,3,2,3,2,3,2,3,2,4.5,2.5,2.5,3.17
+R380,H4,Bukit Canberra,55-64,Senior household,Chinese,Service user,6,1,No,No,2.91,2.71,1.01,4,3,4,4,3,3,2,4,4,4,4,4,3.75,3.0,4.0,3.58
+R381,H4,Bukit Canberra,55-64,Couple,Chinese,Routine user,6,2,No,Yes,2.87,3.07,2.97,3,3,4,4,3,3,3,4,3,2,3,2,3.5,3.25,2.5,3.08
+R382,H4,Bukit Canberra,25-34,Multi-generational,Chinese,Family user,6,1,Yes,No,2.42,4.48,1.0,3,4,3,4,3,3,3,2,3,4,3,3,3.5,2.75,3.25,3.17
+R383,H4,Bukit Canberra,45-54,Family with children,Chinese,Family user,7,1,No,Yes,2.4,3.23,2.3,4,4,2,3,3,3,3,2,4,3,3,2,3.25,2.75,3.0,3.0
+R384,H4,Bukit Canberra,18-24,Couple,Chinese,Event user,10,3,Yes,No,3.98,4.1,1.0,5,5,4,5,3,4,3,3,4,3,3,3,4.75,3.25,3.25,3.75
+R385,H4,Bukit Canberra,35-44,Family with children,Chinese,Service user,2,1,No,Yes,3.5,3.35,1.77,3,3,3,4,2,2,2,2,2,2,3,2,3.25,2.0,2.25,2.5
+R386,H4,Bukit Canberra,35-44,Multi-generational,Malay,Routine user,7,2,No,Yes,3.31,2.5,2.05,5,5,5,4,3,3,3,3,4,3,3,3,4.75,3.0,3.25,3.67
+R387,H4,Bukit Canberra,18-24,Couple,Chinese,Service user,4,2,No,Yes,4.53,3.22,1.38,3,3,3,4,2,2,2,2,2,3,2,2,3.25,2.0,2.25,2.5
+R388,H4,Bukit Canberra,25-34,Single,Other,Senior user,4,2,No,Yes,2.67,2.54,1.73,3,2,3,3,3,4,3,4,3,3,2,2,2.75,3.5,2.5,2.92
+R389,H4,Bukit Canberra,55-64,Multi-generational,Indian,Service user,3,4,No,Yes,5.0,3.82,1.78,3,3,3,4,3,3,2,3,3,3,3,3,3.25,2.75,3.0,3.0
+R390,H4,Bukit Canberra,65+,Couple,Other,Service user,6,3,No,Yes,4.41,2.83,3.21,3,3,3,4,3,2,4,2,2,2,2,2,3.25,2.75,2.0,2.67
+R391,H4,Bukit Canberra,35-44,Couple,Chinese,Family user,7,2,Yes,Yes,3.59,3.3,1.62,4,4,4,4,3,3,3,4,3,3,3,3,4.0,3.25,3.0,3.42
+R392,H4,Bukit Canberra,18-24,Multi-generational,Chinese,Family user,6,3,No,Yes,3.11,4.04,1.96,3,3,2,3,3,3,3,3,1,2,2,2,2.75,3.0,1.75,2.5
+R393,H4,Bukit Canberra,55-64,Family with children,Chinese,Senior user,5,2,Yes,Yes,4.12,2.28,1.43,4,3,4,3,2,2,2,2,2,2,4,2,3.5,2.0,2.5,2.67
+R394,H4,Bukit Canberra,45-54,Single,Malay,Routine user,9,5,No,Yes,2.33,2.6,1.84,4,4,3,4,3,4,3,3,3,3,3,3,3.75,3.25,3.0,3.33
+R395,H4,Bukit Canberra,65+,Senior household,Chinese,Senior user,4,4,Yes,Yes,3.55,5.0,1.27,4,5,4,4,4,3,4,4,3,2,3,4,4.25,3.75,3.0,3.67
+R396,H4,Bukit Canberra,35-44,Couple,Chinese,Service user,7,2,No,Yes,3.76,4.98,2.36,4,4,4,4,3,4,3,4,3,4,3,3,4.0,3.5,3.25,3.58
+R397,H4,Bukit Canberra,45-54,Couple,Other,Family user,6,3,No,Yes,4.21,3.45,1.96,4,3,3,3,3,3,3,4,3,2,2,3,3.25,3.25,2.5,3.0
+R398,H4,Bukit Canberra,55-64,Couple,Indian,Service user,5,3,Yes,No,5.0,4.36,1.84,3,4,3,4,2,2,2,2,4,4,4,4,3.5,2.0,4.0,3.17
+R399,H4,Bukit Canberra,65+,Senior household,Chinese,Service user,8,1,Yes,Yes,3.99,3.25,2.73,3,3,3,4,3,2,1,3,3,4,4,3,3.25,2.25,3.5,3.0
+R400,H4,Bukit Canberra,18-24,Family with children,Indian,Routine user,7,4,Yes,Yes,4.36,3.49,1.21,3,5,4,4,3,3,3,4,3,2,2,3,4.0,3.25,2.5,3.25
+R401,H5,Wisma Geylang Serai,55-64,Couple,Chinese,Event user,8,4,No,Yes,3.62,2.64,1.87,3,4,4,4,3,3,3,3,5,5,5,5,3.75,3.0,5.0,3.92
+R402,H5,Wisma Geylang Serai,35-44,Family with children,Indian,Event user,7,2,No,Yes,4.18,4.26,1.84,4,5,5,5,5,4,4,4,4,3,4,3,4.75,4.25,3.5,4.17
+R403,H5,Wisma Geylang Serai,55-64,Single,Malay,Event user,5,3,No,Yes,3.3,4.19,2.28,5,5,5,5,4,4,4,4,3,3,3,3,5.0,4.0,3.0,4.0
+R404,H5,Wisma Geylang Serai,35-44,Family with children,Chinese,Routine user,7,2,No,Yes,4.03,3.99,3.05,5,5,4,4,3,2,2,3,4,4,4,3,4.5,2.5,3.75,3.58
+R405,H5,Wisma Geylang Serai,35-44,Couple,Chinese,Event user,5,2,No,No,3.18,4.6,4.12,5,4,5,4,2,2,3,2,4,4,4,4,4.5,2.25,4.0,3.58
+R406,H5,Wisma Geylang Serai,18-24,Family with children,Chinese,Routine user,11,4,Yes,Yes,3.26,2.83,3.51,5,5,5,5,3,3,4,3,3,4,4,4,5.0,3.25,3.75,4.0
+R407,H5,Wisma Geylang Serai,65+,Multi-generational,Chinese,Family user,6,1,Yes,Yes,3.56,5.0,3.99,3,4,4,3,4,3,4,4,3,4,3,3,3.5,3.75,3.25,3.5
+R408,H5,Wisma Geylang Serai,35-44,Senior household,Malay,Routine user,8,1,No,Yes,3.94,3.38,3.06,4,4,4,4,3,3,3,4,3,3,3,3,4.0,3.25,3.0,3.42
+R409,H5,Wisma Geylang Serai,55-64,Single,Chinese,Event user,7,3,No,No,3.15,3.78,3.18,3,3,4,4,4,3,4,4,3,3,3,3,3.5,3.75,3.0,3.42
+R410,H5,Wisma Geylang Serai,35-44,Family with children,Chinese,Routine user,8,4,No,No,2.95,3.17,3.4,5,4,5,4,4,5,4,5,3,2,2,4,4.5,4.5,2.75,3.92
+R411,H5,Wisma Geylang Serai,35-44,Couple,Chinese,Routine user,5,4,No,Yes,2.92,4.66,3.15,3,3,3,4,3,4,4,4,3,3,2,2,3.25,3.75,2.5,3.17
+R412,H5,Wisma Geylang Serai,35-44,Multi-generational,Indian,Routine user,8,4,No,No,3.76,4.44,4.78,5,5,5,5,4,4,4,3,3,2,3,3,5.0,3.75,2.75,3.83
+R413,H5,Wisma Geylang Serai,65+,Family with children,Chinese,Senior user,6,1,No,Yes,4.26,4.71,3.35,4,4,5,3,4,4,3,4,3,4,4,5,4.0,3.75,4.0,3.92
+R414,H5,Wisma Geylang Serai,35-44,Family with children,Malay,Event user,17,4,No,Yes,2.46,3.73,4.08,4,5,5,4,5,5,5,5,5,4,3,4,4.5,5.0,4.0,4.5
+R415,H5,Wisma Geylang Serai,65+,Family with children,Malay,Service user,5,3,No,Yes,3.41,4.62,1.96,4,4,4,5,5,5,5,5,3,3,3,3,4.25,5.0,3.0,4.08
+R416,H5,Wisma Geylang Serai,45-54,Family with children,Chinese,Routine user,8,4,Yes,Yes,3.09,3.24,3.66,5,4,4,5,5,4,5,4,3,4,3,4,4.5,4.5,3.5,4.17
+R417,H5,Wisma Geylang Serai,65+,Couple,Malay,Event user,9,2,No,Yes,4.64,3.03,3.49,3,4,4,4,4,4,4,4,4,4,4,4,3.75,4.0,4.0,3.92
+R418,H5,Wisma Geylang Serai,35-44,Family with children,Chinese,Event user,8,2,No,Yes,2.69,3.95,2.67,5,5,5,5,4,5,4,4,3,3,3,3,5.0,4.25,3.0,4.08
+R419,H5,Wisma Geylang Serai,25-34,Family with children,Chinese,Service user,9,3,No,Yes,3.4,4.7,2.28,5,5,5,4,4,4,4,4,4,5,3,3,4.75,4.0,3.75,4.17
+R420,H5,Wisma Geylang Serai,45-54,Single,Other,Event user,8,3,Yes,No,4.06,3.63,3.65,3,3,4,4,4,5,4,5,5,4,3,4,3.5,4.5,4.0,4.0
+R421,H5,Wisma Geylang Serai,55-64,Couple,Chinese,Routine user,8,1,No,Yes,4.59,4.24,2.09,3,3,3,4,3,3,4,3,3,4,3,3,3.25,3.25,3.25,3.25
+R422,H5,Wisma Geylang Serai,55-64,Multi-generational,Chinese,Event user,11,2,No,Yes,4.06,2.5,1.67,3,4,4,3,4,4,4,4,4,5,4,4,3.5,4.0,4.25,3.92
+R423,H5,Wisma Geylang Serai,18-24,Multi-generational,Malay,Event user,9,1,No,Yes,4.34,3.18,2.57,3,3,4,3,3,3,3,3,3,3,3,3,3.25,3.0,3.0,3.08
+R424,H5,Wisma Geylang Serai,55-64,Senior household,Indian,Event user,5,1,No,Yes,3.46,3.52,3.23,5,5,5,5,2,3,3,3,2,2,3,3,5.0,2.75,2.5,3.42
+R425,H5,Wisma Geylang Serai,45-54,Single,Other,Routine user,2,4,No,Yes,4.77,3.28,2.51,3,4,4,4,4,5,3,4,3,3,3,2,3.75,4.0,2.75,3.5
+R426,H5,Wisma Geylang Serai,35-44,Multi-generational,Indian,Service user,5,1,No,Yes,2.94,2.74,2.15,4,4,4,4,4,4,2,3,2,3,3,3,4.0,3.25,2.75,3.33
+R427,H5,Wisma Geylang Serai,65+,Family with children,Indian,Service user,4,2,No,Yes,2.44,3.54,2.14,3,3,3,3,3,2,3,2,2,2,3,3,3.0,2.5,2.5,2.67
+R428,H5,Wisma Geylang Serai,18-24,Family with children,Malay,Event user,6,4,Yes,Yes,3.52,3.53,3.37,3,4,3,3,4,4,4,4,4,3,3,3,3.25,4.0,3.25,3.5
+R429,H5,Wisma Geylang Serai,18-24,Family with children,Malay,Family user,5,4,No,Yes,3.59,4.64,3.0,3,4,4,4,3,3,3,4,4,3,3,3,3.75,3.25,3.25,3.42
+R430,H5,Wisma Geylang Serai,25-34,Couple,Malay,Routine user,6,4,No,Yes,5.0,3.17,2.85,4,4,4,4,4,4,3,3,3,3,3,3,4.0,3.5,3.0,3.5
+R431,H5,Wisma Geylang Serai,65+,Couple,Chinese,Routine user,6,2,Yes,No,3.37,3.76,2.23,3,3,3,4,4,3,4,3,4,3,3,3,3.25,3.5,3.25,3.33
+R432,H5,Wisma Geylang Serai,25-34,Multi-generational,Malay,Event user,6,3,No,Yes,1.8,3.64,3.43,4,5,4,4,5,4,5,5,4,3,4,3,4.25,4.75,3.5,4.17
+R433,H5,Wisma Geylang Serai,35-44,Senior household,Chinese,Senior user,4,4,No,No,3.31,3.8,2.5,4,4,4,3,3,2,2,2,3,4,4,4,3.75,2.25,3.75,3.25
+R434,H5,Wisma Geylang Serai,25-34,Senior household,Chinese,Routine user,9,4,No,Yes,4.79,2.86,4.06,5,5,5,5,4,4,4,4,4,4,4,4,5.0,4.0,4.0,4.33
+R435,H5,Wisma Geylang Serai,18-24,Couple,Chinese,Routine user,8,4,No,Yes,3.05,3.26,3.18,5,5,5,5,5,4,4,4,3,3,4,4,5.0,4.25,3.5,4.25
+R436,H5,Wisma Geylang Serai,18-24,Family with children,Chinese,Family user,5,2,No,Yes,2.68,3.12,3.44,4,3,4,4,3,3,4,3,2,3,4,3,3.75,3.25,3.0,3.33
+R437,H5,Wisma Geylang Serai,18-24,Family with children,Chinese,Senior user,11,3,No,Yes,3.66,3.75,3.14,3,3,4,4,5,5,5,5,5,5,5,4,3.5,5.0,4.75,4.42
+R438,H5,Wisma Geylang Serai,35-44,Family with children,Chinese,Family user,8,3,No,No,3.85,4.25,3.01,5,4,5,5,4,4,3,4,2,3,4,3,4.75,3.75,3.0,3.83
+R439,H5,Wisma Geylang Serai,25-34,Multi-generational,Other,Family user,5,5,No,Yes,2.92,4.5,3.31,5,5,5,5,4,5,5,4,3,3,2,2,5.0,4.5,2.5,4.0
+R440,H5,Wisma Geylang Serai,18-24,Couple,Chinese,Senior user,3,3,No,Yes,3.84,4.33,3.39,3,4,4,3,4,4,3,4,3,3,3,3,3.5,3.75,3.0,3.42
+R441,H5,Wisma Geylang Serai,25-34,Multi-generational,Indian,Event user,6,2,No,Yes,3.32,4.29,2.21,3,4,3,4,4,3,3,4,3,3,4,3,3.5,3.5,3.25,3.42
+R442,H5,Wisma Geylang Serai,65+,Single,Chinese,Routine user,12,1,No,Yes,4.1,3.03,3.14,4,4,3,5,4,4,4,3,3,4,4,4,4.0,3.75,3.75,3.83
+R443,H5,Wisma Geylang Serai,18-24,Senior household,Chinese,Senior user,6,4,No,No,4.99,3.02,2.69,3,4,3,3,4,4,5,3,3,4,3,3,3.25,4.0,3.25,3.5
+R444,H5,Wisma Geylang Serai,25-34,Single,Malay,Event user,3,3,No,Yes,1.41,2.96,3.07,4,4,4,4,3,3,3,4,4,4,4,4,4.0,3.25,4.0,3.75
+R445,H5,Wisma Geylang Serai,35-44,Senior household,Chinese,Family user,8,3,No,Yes,4.52,3.12,2.57,5,5,4,5,4,4,4,4,3,3,3,3,4.75,4.0,3.0,3.92
+R446,H5,Wisma Geylang Serai,55-64,Single,Chinese,Family user,7,4,No,Yes,2.67,3.77,2.37,4,4,4,5,4,4,5,3,3,2,2,2,4.25,4.0,2.25,3.5
+R447,H5,Wisma Geylang Serai,35-44,Family with children,Other,Service user,4,2,No,No,2.19,3.27,2.74,4,4,3,3,4,2,3,3,4,3,4,3,3.5,3.0,3.5,3.33
+R448,H5,Wisma Geylang Serai,45-54,Family with children,Other,Family user,8,3,No,Yes,4.26,4.76,2.37,3,5,4,4,5,5,5,5,3,4,3,3,4.0,5.0,3.25,4.08
+R449,H5,Wisma Geylang Serai,25-34,Family with children,Chinese,Senior user,7,4,No,Yes,5.0,4.19,2.31,4,4,4,4,4,5,5,4,4,3,3,3,4.0,4.5,3.25,3.92
+R450,H5,Wisma Geylang Serai,18-24,Couple,Chinese,Family user,5,3,No,Yes,4.95,3.34,3.07,4,3,4,3,3,4,3,3,3,3,3,2,3.5,3.25,2.75,3.17
+R451,H5,Wisma Geylang Serai,35-44,Family with children,Chinese,Family user,6,2,No,Yes,3.53,3.39,3.34,4,3,4,4,4,4,5,4,2,3,3,2,3.75,4.25,2.5,3.5
+R452,H5,Wisma Geylang Serai,65+,Multi-generational,Chinese,Service user,8,2,Yes,Yes,2.98,3.25,3.45,3,4,3,4,4,4,3,4,5,5,5,5,3.5,3.75,5.0,4.08
+R453,H5,Wisma Geylang Serai,55-64,Single,Other,Senior user,10,2,No,Yes,4.84,2.78,3.55,5,5,5,5,5,5,5,5,4,4,4,4,5.0,5.0,4.0,4.67
+R454,H5,Wisma Geylang Serai,35-44,Multi-generational,Chinese,Family user,8,4,No,Yes,3.79,2.9,2.59,5,5,5,5,2,3,3,3,3,3,3,3,5.0,2.75,3.0,3.58
+R455,H5,Wisma Geylang Serai,18-24,Family with children,Chinese,Service user,9,1,No,No,5.0,4.08,3.34,4,4,5,5,4,4,4,4,3,3,4,4,4.5,4.0,3.5,4.0
+R456,H5,Wisma Geylang Serai,25-34,Family with children,Chinese,Routine user,4,1,No,Yes,3.75,3.52,3.35,4,4,4,4,4,4,4,4,2,3,3,2,4.0,4.0,2.5,3.5
+R457,H5,Wisma Geylang Serai,18-24,Family with children,Other,Family user,6,2,No,Yes,4.9,2.87,2.59,5,4,5,4,4,3,3,3,3,3,3,3,4.5,3.25,3.0,3.58
+R458,H5,Wisma Geylang Serai,35-44,Family with children,Other,Service user,5,4,No,Yes,3.55,3.4,2.45,4,4,4,4,3,2,2,2,2,3,3,3,4.0,2.25,2.75,3.0
+R459,H5,Wisma Geylang Serai,35-44,Senior household,Chinese,Routine user,5,1,No,Yes,3.04,3.21,3.03,4,4,4,4,3,3,3,3,2,2,3,2,4.0,3.0,2.25,3.08
+R460,H5,Wisma Geylang Serai,55-64,Family with children,Indian,Family user,9,3,No,Yes,3.93,3.31,2.59,5,4,4,5,3,3,4,4,3,3,3,4,4.5,3.5,3.25,3.75
+R461,H5,Wisma Geylang Serai,65+,Family with children,Indian,Family user,9,5,No,No,4.52,4.45,2.3,3,4,4,4,3,5,3,4,4,3,4,4,3.75,3.75,3.75,3.75
+R462,H5,Wisma Geylang Serai,18-24,Single,Other,Service user,6,3,Yes,Yes,3.87,3.07,3.01,4,4,4,4,4,5,3,4,4,3,3,2,4.0,4.0,3.0,3.67
+R463,H5,Wisma Geylang Serai,25-34,Single,Chinese,Family user,9,3,Yes,No,3.81,3.86,3.54,4,3,4,4,4,4,4,4,4,4,4,4,3.75,4.0,4.0,3.92
+R464,H5,Wisma Geylang Serai,45-54,Family with children,Indian,Service user,5,2,No,No,3.64,4.81,2.22,4,4,4,3,3,3,3,3,3,3,2,3,3.75,3.0,2.75,3.17
+R465,H5,Wisma Geylang Serai,45-54,Multi-generational,Malay,Family user,7,4,No,Yes,4.92,4.44,3.3,3,3,3,3,4,5,5,4,4,5,4,4,3.0,4.5,4.25,3.92
+R466,H5,Wisma Geylang Serai,25-34,Family with children,Other,Routine user,6,2,No,Yes,3.78,3.72,4.17,4,4,3,5,3,3,2,3,2,3,2,3,4.0,2.75,2.5,3.08
+R467,H5,Wisma Geylang Serai,25-34,Senior household,Chinese,Event user,6,3,Yes,Yes,3.84,3.23,4.03,4,5,5,4,3,4,4,3,4,4,3,5,4.5,3.5,4.0,4.0
+R468,H5,Wisma Geylang Serai,25-34,Family with children,Malay,Routine user,10,3,No,Yes,4.63,3.8,1.44,5,5,4,4,3,3,4,3,3,2,2,3,4.5,3.25,2.5,3.42
+R469,H5,Wisma Geylang Serai,45-54,Family with children,Chinese,Family user,11,1,Yes,No,4.07,3.46,4.23,5,5,5,5,4,4,4,4,5,5,4,5,5.0,4.0,4.75,4.58
+R470,H5,Wisma Geylang Serai,55-64,Couple,Malay,Service user,5,2,No,No,4.43,4.58,2.53,5,4,4,4,5,5,4,5,3,2,3,3,4.25,4.75,2.75,3.92
+R471,H5,Wisma Geylang Serai,55-64,Family with children,Chinese,Routine user,10,1,No,Yes,3.3,4.6,3.37,4,5,3,4,4,5,5,4,3,3,3,4,4.0,4.5,3.25,3.92
+R472,H5,Wisma Geylang Serai,65+,Couple,Malay,Routine user,9,1,No,Yes,2.9,3.5,3.04,5,5,4,4,4,4,4,4,1,2,2,3,4.5,4.0,2.0,3.5
+R473,H5,Wisma Geylang Serai,65+,Family with children,Malay,Senior user,4,3,No,Yes,2.96,3.88,3.21,3,3,3,3,3,4,4,3,3,3,3,4,3.0,3.5,3.25,3.25
+R474,H5,Wisma Geylang Serai,35-44,Family with children,Chinese,Routine user,8,4,No,Yes,4.65,3.88,1.06,5,5,5,5,4,5,3,4,4,5,5,5,5.0,4.0,4.75,4.58
+R475,H5,Wisma Geylang Serai,65+,Multi-generational,Chinese,Senior user,11,3,No,Yes,3.94,2.25,3.23,5,5,5,5,3,4,4,3,4,4,4,3,5.0,3.5,3.75,4.08
+R476,H5,Wisma Geylang Serai,25-34,Family with children,Other,Service user,13,2,Yes,No,3.71,5.0,2.43,5,4,3,5,3,4,3,4,5,4,4,5,4.25,3.5,4.5,4.08
+R477,H5,Wisma Geylang Serai,18-24,Multi-generational,Malay,Event user,4,2,No,Yes,2.51,2.35,2.91,3,4,4,3,3,3,2,2,4,4,4,4,3.5,2.5,4.0,3.33
+R478,H5,Wisma Geylang Serai,55-64,Family with children,Chinese,Service user,4,3,Yes,Yes,1.99,4.04,2.37,4,5,4,4,4,4,4,4,2,2,3,4,4.25,4.0,2.75,3.67
+R479,H5,Wisma Geylang Serai,45-54,Single,Malay,Family user,5,3,No,Yes,4.29,4.51,3.16,3,4,4,3,4,4,3,4,4,4,4,4,3.5,3.75,4.0,3.75
+R480,H5,Wisma Geylang Serai,18-24,Family with children,Malay,Event user,5,1,No,Yes,2.25,4.04,2.07,3,3,3,3,3,3,3,2,2,4,2,3,3.0,2.75,2.75,2.83
+R481,H5,Wisma Geylang Serai,35-44,Family with children,Chinese,Service user,5,3,Yes,Yes,3.22,3.55,3.96,3,4,4,3,4,4,4,4,2,3,2,3,3.5,4.0,2.5,3.33
+R482,H5,Wisma Geylang Serai,25-34,Single,Malay,Event user,9,2,No,No,2.22,5.0,2.58,4,4,3,3,3,3,3,3,3,4,3,4,3.5,3.0,3.5,3.33
+R483,H5,Wisma Geylang Serai,45-54,Couple,Chinese,Family user,4,1,No,Yes,3.35,4.21,2.61,4,4,4,4,3,2,3,3,4,4,3,4,4.0,2.75,3.75,3.5
+R484,H5,Wisma Geylang Serai,18-24,Family with children,Malay,Family user,6,3,No,Yes,4.09,4.29,2.38,4,5,4,4,3,3,4,3,3,2,3,3,4.25,3.25,2.75,3.42
+R485,H5,Wisma Geylang Serai,65+,Senior household,Chinese,Family user,6,4,No,Yes,3.82,2.86,3.2,4,3,3,3,4,4,3,4,4,3,4,4,3.25,3.75,3.75,3.58
+R486,H5,Wisma Geylang Serai,35-44,Family with children,Chinese,Event user,3,5,No,Yes,4.63,3.47,3.4,5,4,4,4,5,5,4,5,4,4,3,4,4.25,4.75,3.75,4.25
+R487,H5,Wisma Geylang Serai,65+,Senior household,Malay,Event user,8,4,No,No,4.39,3.61,2.45,5,4,5,5,3,3,4,4,4,4,4,3,4.75,3.5,3.75,4.0
+R488,H5,Wisma Geylang Serai,25-34,Family with children,Malay,Event user,8,1,No,Yes,3.73,3.57,3.54,5,5,4,5,5,4,4,4,4,4,3,4,4.75,4.25,3.75,4.25
+R489,H5,Wisma Geylang Serai,45-54,Senior household,Indian,Family user,6,3,No,Yes,3.76,3.94,2.92,4,5,5,5,4,4,4,4,4,4,4,4,4.75,4.0,4.0,4.25
+R490,H5,Wisma Geylang Serai,65+,Family with children,Chinese,Family user,4,5,No,Yes,4.14,4.42,3.27,3,3,4,4,4,3,4,4,3,4,4,3,3.5,3.75,3.5,3.58
+R491,H5,Wisma Geylang Serai,25-34,Family with children,Malay,Senior user,6,5,No,No,4.23,2.37,2.63,4,4,4,4,3,3,3,3,3,3,3,3,4.0,3.0,3.0,3.33
+R492,H5,Wisma Geylang Serai,65+,Multi-generational,Indian,Family user,11,2,No,Yes,4.14,4.07,2.8,5,4,4,4,4,3,4,3,5,5,4,5,4.25,3.5,4.75,4.17
+R493,H5,Wisma Geylang Serai,25-34,Couple,Chinese,Family user,4,3,Yes,Yes,3.21,5.0,3.03,4,4,4,3,3,4,3,3,3,2,2,2,3.75,3.25,2.25,3.08
+R494,H5,Wisma Geylang Serai,45-54,Family with children,Malay,Family user,8,3,No,Yes,3.14,4.46,4.24,4,5,5,5,4,4,5,4,3,3,2,2,4.75,4.25,2.5,3.83
+R495,H5,Wisma Geylang Serai,45-54,Multi-generational,Chinese,Routine user,5,3,No,No,3.47,3.43,2.5,4,4,4,4,4,3,4,3,3,2,3,3,4.0,3.5,2.75,3.42
+R496,H5,Wisma Geylang Serai,65+,Family with children,Malay,Service user,5,3,Yes,Yes,2.99,4.12,2.75,4,4,4,4,3,3,4,3,3,3,4,4,4.0,3.25,3.5,3.58
+R497,H5,Wisma Geylang Serai,25-34,Single,Indian,Event user,9,5,Yes,No,3.32,3.39,3.72,5,4,5,5,3,4,3,3,3,3,4,4,4.75,3.25,3.5,3.83
+R498,H5,Wisma Geylang Serai,35-44,Multi-generational,Malay,Service user,10,3,No,Yes,3.07,3.62,2.34,4,4,5,4,4,4,4,4,4,4,4,4,4.25,4.0,4.0,4.08
+R499,H5,Wisma Geylang Serai,35-44,Multi-generational,Chinese,Routine user,7,3,No,Yes,3.96,4.77,3.03,5,4,5,4,4,4,5,5,2,2,2,3,4.5,4.5,2.25,3.75
+R500,H5,Wisma Geylang Serai,35-44,Single,Other,Family user,1,4,No,No,4.76,2.69,4.04,3,4,3,3,3,2,3,2,3,3,3,3,3.25,2.5,3.0,2.92

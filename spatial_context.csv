@@ -1,0 +1,16 @@
+hub_id,hub_name,micro_area,population_density_index,elderly_share_pct,transit_access_score,service_gap_score,future_site_priority_score
+H1,Our Tampines Hub,H1-North,87,15.0,92,39,39
+H1,Our Tampines Hub,H1-East,89,17.2,98,34,27
+H1,Our Tampines Hub,H1-South,94,14.9,87,26,37
+H2,Heartbeat@Bedok,H2-North,70,20.5,88,45,40
+H2,Heartbeat@Bedok,H2-East,78,20.3,81,43,41
+H2,Heartbeat@Bedok,H2-South,77,19.1,91,44,49
+H3,One Punggol,H3-North,89,12.3,86,28,58
+H3,One Punggol,H3-East,82,16.1,81,42,50
+H3,One Punggol,H3-South,82,12.0,88,26,39
+H4,Bukit Canberra,H4-North,78,17.9,74,49,52
+H4,Bukit Canberra,H4-East,65,18.2,90,40,48
+H4,Bukit Canberra,H4-South,83,20.2,72,48,48
+H5,Wisma Geylang Serai,H5-North,77,11.9,82,44,38
+H5,Wisma Geylang Serai,H5-East,74,11.9,94,44,40
+H5,Wisma Geylang Serai,H5-South,84,11.7,95,43,46
