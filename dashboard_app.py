@@ -1,4 +1,5 @@
 
+import numpy as np
 import pandas as pd
 import streamlit as st
 import plotly.express as px
@@ -15,9 +16,24 @@ SECTOR_COLOR_MAP = {"North": "#0d5c63", "East": "#ee6c4d", "South": "#1e6fa8"}
 SECTOR_SYMBOL_MAP = {"North": "circle", "East": "square", "South": "diamond"}
 PAGE_STYLE = """
 <style>
-    .block-container { padding-top: 1rem; }
-    div[data-testid="stVerticalBlockBorderWrapper"] { border-color: rgba(13, 92, 99, 0.18) !important; }
+    .block-container { padding-top: 0.75rem; max-width: 1400px; }
+    div[data-testid="stVerticalBlockBorderWrapper"] { border-color: rgba(13, 92, 99, 0.16) !important; box-shadow: 0 2px 14px rgba(13, 92, 99, 0.05); }
     h1 { letter-spacing: -0.03em; color: #0d5c63 !important; }
+    h2, h3 { color: #0a3d42 !important; letter-spacing: -0.02em; }
+    .pres-hero {
+        border-left: 5px solid #0d5c63;
+        background: linear-gradient(135deg, #f6fbfc 0%, #ffffff 55%, #faf8f5 100%);
+        padding: 1.1rem 1.35rem 1.15rem 1.35rem;
+        border-radius: 0 12px 12px 0;
+        margin-bottom: 0.5rem;
+        box-shadow: 0 2px 16px rgba(13, 92, 99, 0.07);
+        border: 1px solid rgba(13, 92, 99, 0.1);
+        border-left-width: 5px;
+    }
+    .pres-hero .pres-title { font-size: 1.85rem; font-weight: 700; color: #063a40; letter-spacing: -0.035em; line-height: 1.2; margin: 0 0 0.35rem 0; }
+    .pres-hero .pres-sub { font-size: 1.05rem; color: #3d5659; line-height: 1.45; margin: 0; max-width: 52rem; }
+    .pres-filter-hint { font-size: 0.88rem; color: #5a6e72; margin-top: 0.35rem; }
+    .how-read { font-size: 0.92rem; color: #3d534f; background: #f0f8f9; border-radius: 10px; padding: 0.75rem 1rem; border: 1px solid rgba(13,92,99,0.12); margin: 0.5rem 0 1rem 0; line-height: 1.5; }
     [data-testid="stMetric"] {
         background: linear-gradient(180deg, #ffffff 0%, #f4fafb 100%);
         border: 1px solid rgba(13, 92, 99, 0.14);
@@ -78,6 +94,16 @@ PAGE_STYLE = """
         display: none !important;
     }
     div[data-testid="stTabs"] [role="tabpanel"] { padding-top: 0.6rem !important; }
+    /* Subsection titles (markdown ###) inside tab panels */
+    div[data-testid="stTabs"] [data-testid="stMarkdownContainer"] h3 {
+        font-size: 1.12rem !important;
+        font-weight: 650 !important;
+        color: #0d5c63 !important;
+        letter-spacing: -0.02em;
+        margin: 1.15rem 0 0.4rem 0 !important;
+        padding-bottom: 0.2rem;
+        border-bottom: 1px solid rgba(13, 92, 99, 0.12);
+    }
 </style>
 """
 
@@ -100,7 +126,7 @@ def _fmt_delta(d: float | None, precision: int = 2) -> str | None:
     return millify(float(d), precision=precision)
 
 st.set_page_config(
-    page_title="Community Hubs Dashboard",
+    page_title="Community Hubs | Insights",
     page_icon="🏛️",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -171,9 +197,10 @@ SPATIAL_AXIS_LABELS = {
 }
 
 OPS_Y_LABELS = {
-    "attendance_total": "Total attendance",
+    "attendance_total": "Total attendance (visits)",
     "integrated_programming_share": "Integrated programming share",
     "volunteers_active": "Active volunteers",
+    "digital_engagement_total": "Digital engagement (sessions)",
 }
 
 @st.cache_data
@@ -202,21 +229,35 @@ def _prepare_spatial(df: pd.DataFrame) -> pd.DataFrame:
 
 
 st.markdown(PAGE_STYLE, unsafe_allow_html=True)
-st.markdown("# Community Hubs Planner")
+st.markdown(
+    """
+    <div class="pres-hero">
+        <p class="pres-title">Community hubs — planning & impact</p>
+        <p class="pres-sub">A single view of hub capacity, resident social capital, drivers of outcomes, operations, and spatial priorities. Use this flow to brief stakeholders: <strong>where we are</strong> → <strong>what drives outcomes</strong> → <strong>what we could change</strong>.</p>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
 
 hub_names = ["All hubs"] + hub_df["hub_name"].tolist()
 
 with st.container(border=True):
+    st.markdown("**Scope** — choose what the charts focus on")
     f1, f2 = st.columns(2)
     with f1:
-        selected_hub = st.selectbox("Hub scope", hub_names, index=0)
+        selected_hub = st.selectbox("Hub", hub_names, index=0, help="All hubs or one hub across every tab.")
     with f2:
         selected_sc = st.selectbox(
-            "Outcome focus",
+            "Outcome to spotlight",
             SC_OPTIONS,
             index=1,
             format_func=lambda k: SC_LABELS.get(k, k),
+            help="Used for KPIs, driver analysis, and several charts.",
         )
+    st.markdown(
+        '<p class="pres-filter-hint">Filters apply to every tab below. Switch tabs to walk through the story.</p>',
+        unsafe_allow_html=True,
+    )
 
 if selected_hub == "All hubs":
     resp_f, ops_f, spatial_f, hub_f, model_f = resp_df.copy(), ops_df.copy(), spatial_df.copy(), hub_df.copy(), model_df.copy()
@@ -272,8 +313,52 @@ def local_driver_table(outcome, respondent_id):
             "feature_id": var,
             "feature": _feature_label(var),
             "contribution": w * zval,
+            "modifiable": var in MODIFIABLE_FEATURES,
         })
     return pd.DataFrame(rows).sort_values("contribution", ascending=False)
+
+
+LEVER_TYPE_LABELS = {
+    True: "Modifiable (policy & operations)",
+    False: "Non-modifiable (resident context)",
+}
+
+SHAP_LEVER_COLORS = {
+    LEVER_TYPE_LABELS[True]: "#0d5c63",
+    LEVER_TYPE_LABELS[False]: "#8a6fa8",
+}
+
+
+def global_signed_driver_table(outcome):
+    """Cohort-average signed effect w·z (can be negative) — complements the magnitude-only global view."""
+    rows = []
+    for var, w in driver_vars[outcome].items():
+        signed = float((w * normalized(demo[var])).mean())
+        rows.append({
+            "feature_id": var,
+            "feature": _feature_label(var),
+            "signed_effect": signed,
+            "modifiable": var in MODIFIABLE_FEATURES,
+        })
+    return pd.DataFrame(rows)
+
+
+def _z_for_person(respondent_id: str, outcome: str) -> dict[str, float]:
+    return {
+        var: float(normalized(demo[var])[demo["respondent_id"] == respondent_id].iloc[0])
+        for var in driver_vars[outcome]
+    }
+
+
+def mock_counterfactual_score(outcome: str, respondent_id: str, delta_z: dict[str, float]) -> tuple[float, float, float]:
+    """Returns (observed_y, counterfactual_y, delta_y) using linear Σ w·Δz on modifiable drivers only (mock)."""
+    y_obs = float(model_df.loc[model_df["respondent_id"] == respondent_id, outcome].iloc[0])
+    d_y = 0.0
+    for var, w in driver_vars[outcome].items():
+        if var not in MODIFIABLE_FEATURES:
+            continue
+        d_y += w * float(delta_z.get(var, 0.0))
+    return y_obs, y_obs + d_y, d_y
 
 def _base_figure_style(fig):
     fig.update_layout(
@@ -290,8 +375,13 @@ def _base_figure_style(fig):
     fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor="rgba(13,92,99,0.08)", zeroline=False)
 
 
-def show_chart(fig, **kwargs):
+def show_chart(fig, *, presentation: bool = False, **kwargs):
     _base_figure_style(fig)
+    if presentation:
+        fig.update_layout(
+            title=dict(font=dict(size=17, color="#0a3d42")),
+            font=dict(size=12),
+        )
     st.plotly_chart(fig, use_container_width=True, **kwargs)
 
 
@@ -338,7 +428,7 @@ def show_opportunity_scatter(fig, *, height: int = 560, **kwargs):
     fig.update_layout(
         margin=dict(l=60, r=60, t=88, b=140),
         legend=_legend_sector_row(),
-        title=dict(font=dict(size=17), pad=dict(t=8, b=12)),
+        title=dict(font=dict(size=17, color="#0a3d42"), pad=dict(t=8, b=12)),
         height=height,
     )
     fig.update_traces(
@@ -364,6 +454,7 @@ def show_priority_bar(fig, **kwargs):
         legend=_legend_hub_row(),
         height=620,
         barmode="relative",
+        title=dict(font=dict(size=17, color="#0a3d42")),
     )
     fig.update_xaxes(tickangle=-35, tickfont=dict(size=12), automargin=True)
     st.plotly_chart(fig, use_container_width=True, **kwargs)
@@ -376,6 +467,8 @@ def _delta_vs_baseline(series_filtered, series_all):
         return None
     return d
 
+st.subheader("At a glance")
+st.caption("Key numbers for your current hub filter and spotlight outcome — same scope on every tab below.")
 k1, k2, k3, k4 = st.columns(4)
 with k1:
     st.metric("Hubs in view", _fmt_count(len(hub_f)))
@@ -414,23 +507,50 @@ with a4:
 
 st.divider()
 
-tab1, tab2, tab3, tab4, tab5 = st.tabs(["Hub overview", "Social capital outcomes", "Drivers", "Operations & trends", "Spatial prioritization"])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(
+    ["Hub & capacity", "Social capital", "Drivers & scenarios", "Operations", "Spatial priorities"]
+)
 
 with tab1:
-    st.subheader("Hub capacity profile")
+    st.subheader("Hub & capacity")
+    st.caption("Heart / Head / Hands and CCI summarise each hub’s profile in one place.")
+    st.markdown("### Data table")
     _hub_cols = ["hub_name", "heart_score", "head_score", "hands_score", "cci_total", "open_year", "years_since_opening", "amenity_diversity", "integrated_programming_ratio", "governance_openness"]
     st.dataframe(hub_f[_hub_cols].rename(columns=HUB_METRIC_LABELS), use_container_width=True)
+    st.markdown("### Profile comparison")
     bars = hub_f.melt(id_vars=["hub_name"], value_vars=["heart_score", "head_score", "hands_score", "cci_total"], var_name="metric", value_name="score")
     bars["metric"] = bars["metric"].map(lambda m: HUB_METRIC_LABELS.get(m, m))
-    fig = px.bar(bars, x="hub_name", y="score", color="metric", barmode="group", title="Heart / Head / Hands / CCI comparison", color_discrete_sequence=PALETTE, labels={"hub_name": "Hub", "score": "Score"})
-    show_chart(fig)
+    fig = px.bar(
+        bars,
+        x="hub_name",
+        y="score",
+        color="metric",
+        barmode="group",
+        title="Heart, Head, Hands & CCI — side by side",
+        color_discrete_sequence=PALETTE,
+        labels={"hub_name": "Hub", "score": "Score"},
+    )
+    show_chart(fig, presentation=True)
 
 with tab2:
+    st.subheader("Social capital")
+    st.caption("Resident-level outcomes by hub, age, and audience — who experiences what.")
+    st.markdown("### Mean scores by hub")
     sc_comp = resp_f.groupby("hub_name")[["bonding_score", "bridging_score", "linking_score", "overall_sc_score"]].mean().reset_index()
     sc_long = sc_comp.melt(id_vars="hub_name", var_name="dimension", value_name="score")
     sc_long["dimension"] = sc_long["dimension"].map(SC_LABELS)
-    fig = px.bar(sc_long, x="hub_name", y="score", color="dimension", barmode="group", title="Average social capital scores by hub", color_discrete_sequence=PALETTE, labels={"hub_name": "Hub", "score": "Mean score"})
-    show_chart(fig)
+    fig = px.bar(
+        sc_long,
+        x="hub_name",
+        y="score",
+        color="dimension",
+        barmode="group",
+        title="Mean social capital scores by hub",
+        color_discrete_sequence=PALETTE,
+        labels={"hub_name": "Hub", "score": "Mean score"},
+    )
+    show_chart(fig, presentation=True)
+    st.markdown("### Spotlight outcome — distribution")
     x1,x2 = st.columns(2)
     with x1:
         fig = px.box(
@@ -438,7 +558,7 @@ with tab2:
             x="age_group",
             y=selected_sc,
             color="age_group",
-            title=f"{SC_LABELS[selected_sc]} by age group",
+            title=f"{SC_LABELS[selected_sc]} by age band",
             color_discrete_sequence=PALETTE,
             category_orders={"age_group": AGE_GROUP_ORDER},
             labels={selected_sc: SC_LABELS[selected_sc], "age_group": "Age group"},
@@ -449,35 +569,45 @@ with tab2:
             categoryorder="array",
             categoryarray=[a for a in AGE_GROUP_ORDER if a in set(resp_f["age_group"].astype(str))],
         )
-        show_chart(fig)
+        show_chart(fig, presentation=True)
     with x2:
         fig = px.box(
             resp_f,
             x="user_archetype",
             y=selected_sc,
             color="user_archetype",
-            title=f"{SC_LABELS[selected_sc]} by user archetype",
+            title=f"{SC_LABELS[selected_sc]} by audience type",
             color_discrete_sequence=PALETTE,
             labels={selected_sc: SC_LABELS[selected_sc], "user_archetype": "User archetype"},
         )
-        show_chart(fig)
+        show_chart(fig, presentation=True)
+    st.markdown("### Reach by age")
     mix = resp_f.groupby(["hub_name", "age_group"], observed=True).size().reset_index(name="n")
     fig = px.bar(
         mix,
         x="hub_name",
         y="n",
         color="age_group",
-        title="Who is being reached? Respondent mix by age group",
+        title="Respondent counts by hub and age band",
         color_discrete_sequence=PALETTE,
         category_orders={"age_group": AGE_GROUP_ORDER},
         labels={"hub_name": "Hub", "n": "Respondents", "age_group": "Age group"},
     )
-    show_chart(fig)
+    show_chart(fig, presentation=True)
 
 with tab3:
+    st.subheader("What drives the outcome?")
+    st.markdown(
+        '<div class="how-read"><strong>How to read the driver charts:</strong> Bars extend <strong>left</strong> if a factor '
+        "tends to <strong>lower</strong> the score, and <strong>right</strong> if it <strong>raises</strong> it. "
+        "<strong>Teal</strong> = policy or operations you can change; <strong>purple</strong> = resident or context factors held fixed in scenarios below.</div>",
+        unsafe_allow_html=True,
+    )
+
+    st.markdown("### Cohort-level drivers")
     g = global_driver_table(selected_sc)
     g_plot = g.assign(
-        lever_type=g["modifiable"].map({True: "Policy & operations", False: "Resident context & survey"}),
+        lever_type=g["modifiable"].map(LEVER_TYPE_LABELS),
     )
     fig = px.bar(
         g_plot,
@@ -485,23 +615,139 @@ with tab3:
         y="feature",
         color="lever_type",
         orientation="h",
-        title=f"Global drivers of {SC_LABELS[selected_sc]} (decomposition demo)",
-        color_discrete_sequence=PALETTE,
-        labels={"importance": "Mean |weight × z-score|", "feature": "Driver", "lever_type": "Driver type"},
+        title=f"1 · Which factors matter most? (typical strength) — {SC_LABELS[selected_sc]}",
+        color_discrete_map=SHAP_LEVER_COLORS,
+        category_orders={"lever_type": [LEVER_TYPE_LABELS[True], LEVER_TYPE_LABELS[False]]},
+        labels={"importance": "Strength of driver (higher = more influence)", "feature": "Driver", "lever_type": "Type"},
     )
-    show_chart(fig)
-    person = st.selectbox("Pick a respondent", resp_f["respondent_id"].tolist(), index=0)
-    loc = local_driver_table(selected_sc, person)
+    fig.update_layout(legend_title_text="Teal = modifiable · Purple = context")
+    show_chart(fig, presentation=True)
+
+    gs = global_signed_driver_table(selected_sc)
+    gs_plot = gs.assign(
+        lever_type=gs["modifiable"].map(LEVER_TYPE_LABELS),
+    )
+    gs_plot = gs_plot.assign(_abs=np.abs(gs_plot["signed_effect"])).sort_values("_abs", ascending=True)
     fig = px.bar(
-        loc,
+        gs_plot,
+        x="signed_effect",
+        y="feature",
+        color="lever_type",
+        orientation="h",
+        title=f"2 · Cohort average: does each factor help or hurt {SC_LABELS[selected_sc]}?",
+        color_discrete_map=SHAP_LEVER_COLORS,
+        category_orders={"lever_type": [LEVER_TYPE_LABELS[True], LEVER_TYPE_LABELS[False]]},
+        labels={
+            "signed_effect": "Effect on score (← hurts · helps →)",
+            "feature": "Driver",
+            "lever_type": "Type",
+        },
+    )
+    fig.update_xaxes(zeroline=True, zerolinewidth=2, zerolinecolor="rgba(60,60,60,0.6)")
+    fig.update_layout(legend_title_text="Teal = modifiable · Purple = context")
+    fig.update_yaxes(title_text="")
+    show_chart(fig, presentation=True)
+
+    st.markdown("### One resident — deep dive")
+    person = st.selectbox("Choose respondent ID", resp_f["respondent_id"].tolist(), index=0)
+    loc = local_driver_table(selected_sc, person)
+    loc_plot = loc.assign(lever_type=loc["modifiable"].map(LEVER_TYPE_LABELS))
+    loc_plot = loc_plot.assign(_abs=np.abs(loc_plot["contribution"])).sort_values("_abs", ascending=True)
+    fig = px.bar(
+        loc_plot,
         x="contribution",
         y="feature",
+        color="lever_type",
         orientation="h",
-        title=f"Local contribution for respondent {person}",
-        color_discrete_sequence=PALETTE,
-        labels={"contribution": "Contribution (weight × z)", "feature": "Driver"},
+        title=f"3 · Resident {person}: factor-by-factor impact on {SC_LABELS[selected_sc]}",
+        color_discrete_map=SHAP_LEVER_COLORS,
+        category_orders={"lever_type": [LEVER_TYPE_LABELS[True], LEVER_TYPE_LABELS[False]]},
+        labels={
+            "contribution": "Effect on score (← hurts · helps →)",
+            "feature": "Driver",
+            "lever_type": "Type",
+        },
     )
-    show_chart(fig)
+    fig.update_xaxes(zeroline=True, zerolinewidth=2, zerolinecolor="rgba(60,60,60,0.6)")
+    fig.update_layout(legend_title_text="Teal = modifiable · Purple = context")
+    fig.update_yaxes(title_text="")
+    show_chart(fig, presentation=True)
+
+    scope = f"{selected_sc}_{person}".replace(" ", "_")
+    mod_keys = [v for v in driver_vars[selected_sc] if v in MODIFIABLE_FEATURES]
+    nm_keys = [v for v in driver_vars[selected_sc] if v not in MODIFIABLE_FEATURES]
+    z_baseline = _z_for_person(person, selected_sc)
+
+    st.markdown("### Scenario lab — what-if (demo model)")
+    with st.expander("Open scenario controls & live prediction", expanded=True):
+        st.markdown(
+            "Use the sliders to **simulate** how shifting **modifiable** factors might change the spotlight outcome. "
+            "The **model output updates live** as you drag. Context factors stay fixed for the selected resident."
+        )
+        b1, b2, b3 = st.columns(3)
+        with b1:
+            if st.button("Load demo: positive shifts", key=f"wi_up_{scope}"):
+                rng = np.random.default_rng(42)
+                for v in mod_keys:
+                    st.session_state[f"wiz_{scope}_{v}"] = float(rng.uniform(0.25, 1.15))
+        with b2:
+            if st.button("Load demo: negative shifts", key=f"wi_dn_{scope}"):
+                rng = np.random.default_rng(7)
+                for v in mod_keys:
+                    st.session_state[f"wiz_{scope}_{v}"] = float(rng.uniform(-1.35, -0.2))
+        with b3:
+            if st.button("Clear all shifts", key=f"wi_rs_{scope}"):
+                for v in mod_keys:
+                    st.session_state[f"wiz_{scope}_{v}"] = 0.0
+
+        st.markdown("**Fixed for this resident (not on sliders)**")
+        nm_df = pd.DataFrame(
+            {"Factor": [_feature_label(v) for v in nm_keys], "Baseline position": [f"{z_baseline[v]:.2f}" for v in nm_keys]}
+        )
+        st.dataframe(nm_df, use_container_width=True, hide_index=True)
+
+        st.markdown("**Programme levers you can move**")
+        delta_z = {}
+        for v in mod_keys:
+            k = f"wiz_{scope}_{v}"
+            if k not in st.session_state:
+                st.session_state[k] = 0.0
+            delta_z[v] = st.slider(
+                _feature_label(v),
+                -2.0,
+                2.0,
+                step=0.05,
+                key=k,
+                help="Standardised shift vs this person’s baseline. Demo rule: new score ≈ current + weighted sum of shifts.",
+            )
+
+        y_obs, y_cf, d_y = mock_counterfactual_score(selected_sc, person, delta_z)
+        _omin = float(model_df[selected_sc].min())
+        _omax = float(model_df[selected_sc].max())
+        _span = max(_omax - _omin, 1e-9)
+        _prog = float(np.clip((y_cf - _omin) / _span, 0.0, 1.0))
+
+        st.divider()
+        with st.container(border=True):
+            st.markdown(f"#### Model readout · {SC_LABELS[selected_sc]}")
+            st.caption(
+                f"Simplified linear demo (not production ML). Cohort range for this outcome: {_omin:.2f}–{_omax:.2f}. "
+                "The bar shows where your scenario sits in that band."
+            )
+            c1, c2 = st.columns(2)
+            with c1:
+                st.metric("Today (observed)", f"{y_obs:.3f}")
+            with c2:
+                st.metric(
+                    "Scenario (after sliders)",
+                    f"{y_cf:.3f}",
+                    delta=f"{d_y:+.3f} vs today",
+                    delta_color="normal",
+                )
+            st.progress(_prog)
+            st.caption("Illustrative position along the cohort min–max range for this outcome.")
+
+    st.markdown("### Compare two hubs")
     a,b = st.columns(2)
     with a:
         hub_a = st.selectbox("Hub A", hub_df["hub_name"].tolist(), index=0)
@@ -519,24 +765,100 @@ with tab3:
         x="gap_a_minus_b",
         y="feature",
         orientation="h",
-        title=f"Average driver gap: {hub_a} vs {hub_b}",
+        title=f"4 · Comparing two hubs: {hub_a} vs {hub_b} (average driver difference)",
         color_discrete_sequence=PALETTE,
-        labels={"gap_a_minus_b": f"Mean gap ({hub_a} − {hub_b})", "feature": "Driver"},
+        labels={
+            "gap_a_minus_b": f"Extra impact at {hub_a} vs {hub_b} (← favours {hub_b} · favours {hub_a} →)",
+            "feature": "Driver",
+        },
     )
-    show_chart(fig)
+    fig.update_xaxes(zeroline=True, zerolinewidth=1.5, zerolinecolor="rgba(60,60,60,0.5)")
+    show_chart(fig, presentation=True)
 
 with tab4:
-    fig = px.line(ops_f, x="month", y="attendance_total", color="hub_name", markers=True, title="Attendance trend", color_discrete_sequence=PALETTE, labels={"month": "Month", "attendance_total": OPS_Y_LABELS["attendance_total"], "hub_name": "Hub"})
-    show_chart(fig)
-    o1,o2 = st.columns(2)
+    st.subheader("Operations")
+    st.caption(
+        "Monthly delivery indicators for the selected hub filter: footfall, how much programming is cross-cutting, "
+        "volunteer engagement, and digital reach."
+    )
+    _mo = ops_f["month"].min()
+    _mx = ops_f["month"].max()
+    _hlist = ", ".join(sorted(ops_f["hub_name"].unique()))
+    st.caption(f"**Series:** {_mo} → {_mx} · **Hubs in view:** {_hlist}")
+
+    om1, om2, om3 = st.columns(3)
+    with om1:
+        st.metric("Peak monthly attendance (in view)", f"{int(ops_f['attendance_total'].max()):,}")
+    with om2:
+        st.metric("Avg integrated programming share", f"{ops_f['integrated_programming_share'].mean():.0%}")
+    with om3:
+        st.metric("Avg active volunteers / month", f"{int(round(ops_f['volunteers_active'].mean())):,}")
+
+    st.markdown("### Footfall — monthly attendance")
+    fig = px.line(
+        ops_f,
+        x="month",
+        y="attendance_total",
+        color="hub_name",
+        markers=True,
+        title="1 · Total visits by hub (monthly)",
+        color_discrete_map=HUB_COLOR_MAP,
+        labels={"month": "Month", "attendance_total": OPS_Y_LABELS["attendance_total"], "hub_name": "Hub"},
+    )
+    fig.update_layout(hovermode="x unified")
+    fig.update_yaxes(title_text="Visits", rangemode="tozero")
+    show_chart(fig, presentation=True)
+
+    st.markdown("### Programme mix & people")
+    o1, o2 = st.columns(2)
     with o1:
-        fig = px.line(ops_f, x="month", y="integrated_programming_share", color="hub_name", markers=True, title="Integrated programming share", color_discrete_sequence=PALETTE, labels={"month": "Month", "integrated_programming_share": OPS_Y_LABELS["integrated_programming_share"], "hub_name": "Hub"})
-        show_chart(fig)
+        fig = px.line(
+            ops_f,
+            x="month",
+            y="integrated_programming_share",
+            color="hub_name",
+            markers=True,
+            title="2 · Share of integrated programming",
+            color_discrete_map=HUB_COLOR_MAP,
+            labels={"month": "Month", "integrated_programming_share": OPS_Y_LABELS["integrated_programming_share"], "hub_name": "Hub"},
+        )
+        fig.update_yaxes(title_text="Share of programme", tickformat=".0%", range=[0, 1])
+        fig.update_layout(hovermode="x unified")
+        show_chart(fig, presentation=True)
     with o2:
-        fig = px.line(ops_f, x="month", y="volunteers_active", color="hub_name", markers=True, title="Volunteers active", color_discrete_sequence=PALETTE, labels={"month": "Month", "volunteers_active": OPS_Y_LABELS["volunteers_active"], "hub_name": "Hub"})
-        show_chart(fig)
+        fig = px.line(
+            ops_f,
+            x="month",
+            y="volunteers_active",
+            color="hub_name",
+            markers=True,
+            title="3 · Active volunteers",
+            color_discrete_map=HUB_COLOR_MAP,
+            labels={"month": "Month", "volunteers_active": OPS_Y_LABELS["volunteers_active"], "hub_name": "Hub"},
+        )
+        fig.update_yaxes(title_text="Volunteers", rangemode="tozero")
+        fig.update_layout(hovermode="x unified")
+        show_chart(fig, presentation=True)
+
+    st.markdown("### Digital engagement")
+    fig = px.line(
+        ops_f,
+        x="month",
+        y="digital_engagement_total",
+        color="hub_name",
+        markers=True,
+        title="4 · Digital engagement (proxy volume)",
+        color_discrete_map=HUB_COLOR_MAP,
+        labels={"month": "Month", "digital_engagement_total": OPS_Y_LABELS["digital_engagement_total"], "hub_name": "Hub"},
+    )
+    fig.update_yaxes(title_text="Sessions (proxy)", rangemode="tozero")
+    fig.update_layout(hovermode="x unified")
+    show_chart(fig, presentation=True)
 
 with tab5:
+    st.subheader("Spatial priorities")
+    st.caption("Catchment micro-areas: transit access vs service gap, bubble size = investment priority.")
+    st.markdown("### Opportunity map")
     sp = _prepare_spatial(spatial_f)
     hubs_in_view = [h for h in HUB_ORDER if h in set(sp["hub_name"])]
     sec_in_view = [s for s in SECTOR_ORDER if s in set(sp["sector"])]
@@ -562,7 +884,7 @@ with tab5:
         size_max=5,
         hover_name="micro_area",
         hover_data=["hub_name", "sector", "elderly_share_pct", "population_density_index", "future_site_priority_score"],
-        title="Micro-area opportunity map · one panel per hub · sector = color + shape",
+        title="Opportunity map — one panel per hub · sector = color + shape",
         labels={
             "transit_access_score": SPATIAL_AXIS_LABELS["transit_access_score"],
             "service_gap_score": SPATIAL_AXIS_LABELS["service_gap_score"],
@@ -572,6 +894,7 @@ with tab5:
     )
     show_opportunity_scatter(fig, height=scatter_height)
 
+    st.markdown("### Priority ranking")
     bar_df = sp.sort_values("future_site_priority_score", ascending=False)
     fig = px.bar(
         bar_df,
@@ -580,7 +903,7 @@ with tab5:
         color="hub_name",
         color_discrete_map=HUB_COLOR_MAP,
         category_orders={"hub_name": hubs_in_view, "micro_area": bar_df["micro_area"].tolist()},
-        title="Future site priority score by micro-area",
+        title="Ranking micro-areas for future investment priority",
         labels={
             "micro_area": "Micro-area",
             "future_site_priority_score": SPATIAL_AXIS_LABELS["future_site_priority_score"],
